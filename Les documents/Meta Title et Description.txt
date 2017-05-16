@@ -26,6 +26,48 @@ Page : Evenements
 
 <----------------------------------------------------------->
 
+Page : Mariages
+
+<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
+<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+
+<----------------------------------------------------------->
+
+Page : Baptèmes
+
+<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
+<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+
+<----------------------------------------------------------->
+
+Page : Séminaires
+
+<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
+<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+
+<----------------------------------------------------------->
+
+Page : Apéritifs
+
+<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
+<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+
+<----------------------------------------------------------->
+
+Page : Anniversaires
+
+<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
+<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+
+<----------------------------------------------------------->
+
+Page : Séminaires
+
+<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
+<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+
+<----------------------------------------------------------->
+
 Page : Style culinaire
 
 <title>Styles culinaires | A l'équilibre</title>
