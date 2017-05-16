@@ -193,7 +193,7 @@ footer ul{
 
 
 /*     --------------MARIE -----------------*/
-
+/* styles culinaires*/
 .body{
     margin: 0;
 }
@@ -261,6 +261,7 @@ h2{
 .sc_imgpays:hover{
     -webkit-filter: brightness(40%);
 }
+
 
 
 /*     --------------MARIE fin -----------------*/
