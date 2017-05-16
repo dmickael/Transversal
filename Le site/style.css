@@ -188,6 +188,14 @@ footer ul{
     border-radius: 50px;
     margin-bottom: 1%;
     padding: 5px;}
+
+
+
+
+/*     --------------MARIE -----------------*/
+.body{
+    margin: 0;
+}
 h2{
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
@@ -195,18 +203,24 @@ h2{
 .sc_title{
     color: white;
     background-color: crimson;
-
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .sc_blocpays{
+    text-align: center;
     margin-top: 8px;
     margin-bottom: 10px;
 }
-.sc_pays{
-    margin-top: 20px;
-    margin-right: 20px;
+.test{
+    position: absolute;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 200px;
+}
+.sc_blocpays .sc_pays{
+    margin:15px;
     width: 300px;
     display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -216,12 +230,12 @@ h2{
     transition: all 1s ease;
 }
 .sc_paystitle{
-    position: absolute;
+    top: 25%;
+    position: relative;
     z-index: 2;
     color: white;
     font-size: 30px;
-    margin-top: 75px ;
-    margin-left: 50px;
+    font-family: ‘Dancing Script’, cursive;
 }
 .sc_pays:hover{
     -webkit-transform:scale(1.05); /* Safari et Chrome */
@@ -236,3 +250,5 @@ h2{
     height: 200px;
     -webkit-filter: brightness(60%);
 }
+
+/*     --------------MARIE fin -----------------*/
