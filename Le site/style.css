@@ -1,0 +1,15 @@
+.body{
+    margin: 0;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+}
+.sc_title{
+    color: white;
+    background-color: crimson;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
