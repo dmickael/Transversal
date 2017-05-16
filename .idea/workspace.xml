@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4dcedc-01ae-4c44-94cd-b13bfcfcca55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/argentin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/burger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/cocktail.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/crepe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/gateau.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/glace.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/grec.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/indien.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/italien.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/japonais.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/libanais.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/mexicain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/pates.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/pizza.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/wok.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Image/Styles_culinaires/wrap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Transversal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Le site/style_culinaire.html" afterPath="$PROJECT_DIR$/Le site/style_culinaire.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +29,8 @@
       <file leaf-file-name="style_culinaire.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Le site/style_culinaire.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,10 +57,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="187" />
-    <option name="y" value="43" />
+    <option name="x" value="54" />
+    <option name="y" value="23" />
     <option name="width" value="888" />
-    <option name="height" value="815" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -187,6 +166,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -225,7 +210,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="832000" />
+    <option name="totallyTimeSpent" value="973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,7 +222,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="43" width="888" height="815" extended-state="0" />
+    <frame x="54" y="23" width="888" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22635135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -253,6 +238,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22635135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -280,8 +267,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Le site/style_culinaire.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="635">
+          <caret line="94" column="10" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="94" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Le site/style_culinaire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
