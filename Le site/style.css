@@ -2,7 +2,7 @@
     margin: 0;
 }
 h2{
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Dancing Script', cursive;
 }
 .sc_title{
@@ -13,7 +13,10 @@ h2{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.sc_blocpays{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
 .sc_pays{
     margin-top: 20px;
     margin-right: 20px;
@@ -25,22 +28,24 @@ h2{
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
 }
+.sc_paystitle{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 30px;
+    margin-top: 75px ;
+    margin-left: 50px;
+}
 .sc_pays:hover{
     -webkit-transform:scale(1.05); /* Safari et Chrome */
     -moz-transform:scale(1.05); /* Firefox */
     -ms-transform:scale(1.05); /* Internet Explorer 9 */
     -o-transform:scale(1.05); /* Opera */
     transform:scale(1.05);
+    -webkit-filter: brightness(40%);
 }
 .sc_imgpays {
     width: 100%;
     height: 200px;
     -webkit-filter: brightness(60%);
-}
-.sc_button{
-    transition-duration: 0.4s;
-}
-.sc_button:hover{
-    background-color: crimson;
-    color: white;
 }
