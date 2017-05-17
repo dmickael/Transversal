@@ -546,7 +546,7 @@ h2{
 
 .block_actualite{
     width: 405px;
-    height: 500px;
+    height: 600px;
     display: inline-table;
     border: outset 3px;
     margin: 20px;
@@ -556,6 +556,14 @@ h2{
     width: 400px;
     height: 280px;
 }
+.date_blog {
+    font-size: 13px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    text-align:left ;
+    margin-left: 10px;
+}
+
 .block_actualitetitle{
     font-size: 20px;
     font-family: ‘Dancing Script’, cursive;
@@ -568,8 +576,27 @@ h2{
     text-align: justify;
     font-family: ‘Dancing Script’, cursive;
     padding: 20px;
+}
+.blog_bouton{
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
 
 }
+.blog_bouton a{
+    background-color:crimson;
+    font-size: 15px;
+    cursor:pointer;
+    font-family: ‘Dancing Script’, cursive;
+    text-decoration:none;
+    color:white;
+    border-radius: 50px;
+
+}
+.blog_bouton:hover {
+    transform:scale(1.05);
+}
+
 /*     ACTU       */
 
 /*       BLOG      */
