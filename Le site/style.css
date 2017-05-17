@@ -3,20 +3,20 @@ body{margin: 0;}
 a{background-color: transparent;color:grey;text-decoration: none;}
 a:hover,a:active{outline: 0;}
 .titre_rouge{
-    color: rgb(210,38,43);
+    color: crimson;
     font-family: "‘Dancing Script’", cursive;
 }
 .titre_blanc{
     color: white;
 }
 .fond_rouge{
-    background-color: rgb(210,38,43);
+    background-color: crimson;
 }
 .texte_blanc{
     color: white;
 }
 .texte_rouge{
-    color: rgb(210,38,43);
+    color: crimson;
 }
 h2{
     width: 100%;
@@ -201,7 +201,7 @@ img[title="flecheversbas"]{
     position: absolute;
     top: 91%;
     align-self: center;
-    background-color: rgb(210,38,43);
+    background-color: crimson;
     border-radius: 50%;
     padding: 1px;
 }
@@ -225,9 +225,6 @@ a{
 .index_decouverte_monde_images p{
     width: 400px;
     height: 200px;
-}
-#index_ils_adorent{
-    background-color: rgb(210,38,43);
 }
 #index_ils_adorent ul{
     display: flex;
@@ -267,13 +264,11 @@ a{
     margin-right: 2%;
     margin-top: 2%;
     border-radius: 50px;
-    background-color: rgb(210,38,43);
     width: 80px;
     padding: 2px;
     text-align: center;
 }
 #index_equipe{
-    background-color: rgb(210,38,43);
     display: flex;
     align-items: center;
     flex-direction: column;

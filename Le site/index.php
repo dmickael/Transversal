@@ -41,8 +41,8 @@ require ('back_office/db.php') ?>
         </div>
         <a class="texte_blanc fond_rouge" href="style_culinaire.php">Découvrir!</a>
     </article>
-    <div id="index_ils_adorent">
-        <h2 class="titre_blanc">Ils nous font confiance</h2>
+    <div id="index_ils_adorent" class="fond_rouge">
+        <h2 class="titre_blanc ">Ils nous font confiance</h2>
         <ul>
             <li><img src="images/logo_entreprise/Logo_Nantes.png" alt="logo "></li>
             <li><img src="images/logo_entreprise/Logo_Semitan.png" alt="logo "></li>
@@ -57,9 +57,9 @@ require ('back_office/db.php') ?>
             <div id="map"></div>
             <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <a class="texte_blanc" href="horaires.html">Plus....</a>
+        <a class="texte_blanc fond_rouge" href="horaires.html">Plus....</a>
     </div>
-    <article id="index_equipe">
+    <article id="index_equipe" class="fond_rouge">
         <h2 class="titre_blanc">Notre équipe</h2>
         <div id="index_collegue">
             <img src="images/membres_equipe/mael.png" alt="photo ">
