@@ -1,5 +1,9 @@
 <?php
 
+if (isset($_POST['societe'])) {
+    $societe = $_POST['societe'];
+}
+
 if (isset($_POST['nom'])) {
     $nom = $_POST['nom'];
 }
@@ -27,28 +31,31 @@ $to="ynovphp@gmail.com";
 $from=$mail;
 $from_name=$nom.' '.$prenom;
 $subject=$demande;
-$msg=$zonetext.'<br/>'.$phone;
+$msg=$zonetext.'<br><br>'.'<p>Société : '.$societe.'</p>'.'<p>E-mail : '.$from.'</p>'.'<p>Téléphone : '.$phone.'</p>';
 
 
+require('phpmailer/class.phpmailer.php');
+require('phpmailer/class.smtp.php');
 
-include("phpmailer/class.phpmailer.php");
 $mail = new PHPMailer();
 $mail->IsSMTP();
-$mail->CharSet = 'UTF-8';
 $mail->Host = "smtp.gmail.com";
-$mail->SMTPAuth= true;
-$mail->Port = 465; // Or 587
+$mail->Port = 465;
+$mail->SMTPSecure = 'ssl';
+$mail->SMTPAuth = true;
+$mail->From = $from;
 $mail->Username= $account;
 $mail->Password= $password;
-$mail->SMTPSecure = 'ssl';
-$mail->AddReplyTo($from);
-$mail->From = $from;
 $mail->FromName= $from_name;
-$mail->isHTML(true);
+$mail->CharSet ="UTF-8";
+$mail->AddReplyTo($from);
+$mail->AddAddress($to);
 $mail->Subject = $subject;
+$mail->IsHTML(true); //Or false if you do not want HTML content
 $mail->Body = $msg;
-$mail->addAddress($to);
-if(!$mail->send()){
+$mail->AltBody = "No HTML Body. Great story goes here!";
+
+if(!$mail->Send()){
     echo "Mailer erreur: " . $mail->ErrorInfo;
     echo '</br><a href="javascript:history.go(-1)">Retour</a>';
 }else{
@@ -56,3 +63,5 @@ if(!$mail->send()){
     echo '</br><a href="javascript:history.go(-1)">Retour</a>';
 }
 ?>;
+
+
