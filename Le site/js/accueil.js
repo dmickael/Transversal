@@ -5,8 +5,8 @@ $(document).ready(function(){
     $('header').addClass('invisible');
     $('.slider').slick({
         touchMove:false,
-        prevArrow:'<button type="button" id="buttonarrowprev"><img src="images/fleche.png" title="arrow"/></button>',
-        nextArrow:'<button type="button" id="buttonarrownext"><img src="images/fleche.png" title="arrow"/></button>'
+        prevArrow:'<button type="button" id="buttonarrowprev"><img src="images/fleche.png" title="précédent"/></button>',
+        nextArrow:'<button type="button" id="buttonarrownext"><img src="images/fleche.png" title="suivant"/></button>'
     });
 });
 $(window).scroll(function(){
