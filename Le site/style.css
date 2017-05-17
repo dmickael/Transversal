@@ -4,6 +4,7 @@ a{background-color: transparent;color:grey;text-decoration: none;}
 a:hover,a:active{outline: 0;}
 .titre_rouge{
     color: rgb(210,38,43);
+    font-family: "‘Dancing Script’", cursive;
 }
 .titre_blanc{
     color: white;
@@ -234,9 +235,10 @@ a{
     justify-content: space-around;
 }
 #index_ils_adorent img{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 10px;
+    border-radius: 50px;
 }
 #index_nous_trouver{
     display: flex;
@@ -284,6 +286,7 @@ a{
 }
 #index_equipe img{
     width: 150px;
+    border-radius: 50px;
 }
 #index_equipe a{
     align-self: flex-end;
