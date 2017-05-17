@@ -9,10 +9,7 @@
 </head>
 <body>
 <header>
-    <?php
-    include("../header.html");
-    ?>
-
+    <?php include'../header.html'; ?>
 </header>
 
     <div class="plat_blockheader">
@@ -75,9 +72,7 @@
         </div>
     </div>
 <footer>
-    <?php
-    include ("../footer.html");
-    ?>
+    <?php include '../footer.html'; ?>
 </footer>
 
 </body>
