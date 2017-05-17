@@ -1,11 +1,11 @@
-Page :Index
+Page : index
 
 <title>A l'équilibre</title>
 <meta name="description" content="L'alternative au restaurant, A l'équilibre est la pour vous !"/>
 
 <----------------------------------------------------------->
 
-Page : blog
+Page : actualites
 
 title>Blog et articles | A l'équilibre</title>
 <meta name="description" content="Blog A l'équilibre : actualité, guides pratiques et conseils. La nouvelle alternative qui remplace le restaurant."/>
@@ -19,166 +19,41 @@ Page : contact
 
 <----------------------------------------------------------->
 
-Page : Evenements
+Page : evenements
 
 <title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
 <meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
 
 <----------------------------------------------------------->
+ex d'une des pages evenements
 
-Page : Mariages
-
-<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
-<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
-
-<----------------------------------------------------------->
-
-Page : Baptèmes
+Page : mariages
 
 <title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
 <meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
 
 <----------------------------------------------------------->
+ex d'une des pages menus
 
-Page : Séminaires
+Page : argentin
 
-<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
-<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
-
-<----------------------------------------------------------->
-
-Page : Apéritifs
-
-<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
-<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+<title>Menus | A l'équilibre</title>
+<meta name="description" content="Voici nos menus de type argentin!!"/>
 
 <----------------------------------------------------------->
 
-Page : Anniversaires
 
-<title>Emplacements fixes et événements pour foodtruck | A l'équilibre</title>
-<meta name="description" content="Foodtrucks, rejoignez notre réseau et bénéficiez de nos services d’emplacements fixes et événementiels. Avec nous, boostez votre chiffre d’amitié."/>
-
-<----------------------------------------------------------->
-
-Page : Style culinaire
+Page : styles culinaires
 
 <title>Styles culinaires | A l'équilibre</title>
 <meta name="description" content="Plus de 10 styles culinaires disponibles à la privatisation parmi notre réseau de traiteurs Nantais."/>
 
 <----------------------------------------------------------->
 
-Page : Argentin
-
-<title>Argentin | A l'équilibre</title>
-<meta name="description" content="Traiteur Argentin pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Burger
-
-<title>Burger | A l'équilibre</title>
-<meta name="description" content="Traiteur Burger pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Glace
-
-<title>Glace | A l'équilibre</title>
-<meta name="description" content="Traiteur spécialisé dans les glaces pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Crèpe
-
-<title>Crèpe | A l'équilibre</title>
-<meta name="description" content="Traiteur crêpes pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Cocktail
-
-<title>Coktail | A l'équilibre</title>
-<meta name="description" content="Traiteur de coktails pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Wrap
-
-<title>Wrap | A l'équilibre</title>
-<meta name="description" content="Traiteur wrap pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Libanais
-
-<title>Libanais | A l'équilibre</title>
-<meta name="description" content="Traiteur libanais pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Gateaux
-
-<title>Gateaux | A l'équilibre</title>
-<meta name="description" content="Traiteur gateaux pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-
-<----------------------------------------------------------->
-
-Page : Indien
-
-<title>Indien | A l'équilibre</title>
-<meta name="description" content="Traiteur indien pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Italien
-
-<title>Italien | A l'équilibre</title>
-<meta name="description" content="Traiteur italien pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Grec
-
-<title>Grec | A l'équilibre</title>
-<meta name="description" content="Traiteur grec pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Japonais
-
-<title>Japonais | A l'équilibre</title>
-<meta name="description" content="Traiteur japonais pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Pizza
-
-<title>Pizza | A l'équilibre</title>
-<meta name="description" content="Traiteur pizza pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Pates
-
-<title>Pattes | A l'équilibre</title>
-<meta name="description" content="Traiteur spécialisé dans les pates pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Mexicain
-
-<title>Mexicain | A l'équilibre</title>
-<meta name="description" content="Traiteur mexicain pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
-
-<----------------------------------------------------------->
-
-Page : Wok
+Page : equipe
 
 <title>Wok | A l'équilibre</title>
-<meta name="description" content="Traiteur spécialisé dans la cuisine au wok pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation." />
-
+<meta name="description" content="Présentation de notre équipe A l'équilibre" />
 
 
 

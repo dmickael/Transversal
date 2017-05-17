@@ -12,8 +12,7 @@
     <meta charset="utf-8">
     <title>A l'équilibre</title>
     <meta name="description" content="L'alternative au restaurant, A l'équilibre est la pour vous !"/>
-    <link href=“https://fonts.googleapis.com/css?family=Dancing+Script” rel=“stylesheet” />
-    <link href=“https://fonts.googleapis.com/css?family=Dancing+Script” rel=“stylesheet” />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="style.css" rel="stylesheet">
@@ -23,8 +22,8 @@
 require ('back_office/db.php') ?>
 <section>
     <div id="index_carousselle" class="slider">
-        <div><img src="images/" alt=""></div>
-        <div><img src="images/" alt=""></div>
+        <div><img src="images/image_caroussel/cuisinedumonde.jpg" alt="cuisine du monde" title="cuisinemonde"><h1 class="titre_blanc">A l'equilibre</h1></div>
+        <div><img src="images/image_caroussel/legume.jpg" title="legumefeu" alt=""><img src="images/logo.png" alt="logo" title="logo_caroussel"></div>
         <div><img src="images/" alt=""></div>
         <div><img src="images/" alt=""></div>
     </div>
@@ -64,7 +63,7 @@ require ('back_office/db.php') ?>
         <div id="index_collegue">
             <img src="images/membres_equipe/mael.png" alt="photo ">
             <img src="images/membres_equipe/maxime.png" alt="photo ">
-            <img src="images/" alt="photo ">
+            <img src="images/membres_equipe/marie.PNG" alt="photo ">
             <img src="images/" alt="photo ">
         </div>
         <a class="texte_rouge" href="equipe.html">Plus d'infos....</a>

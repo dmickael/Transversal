@@ -4,10 +4,11 @@ a{background-color: transparent;color:grey;text-decoration: none;}
 a:hover,a:active{outline: 0;}
 .titre_rouge{
     color: crimson;
-    font-family: "‘Dancing Script’", cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .titre_blanc{
     color: white;
+    font-family: 'Dancing Script', cursive;
 }
 .fond_rouge{
     background-color: crimson;
@@ -27,7 +28,7 @@ header{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1px black solid;
     z-index: 1100;
     box-shadow: -10px 2px 10px black;
@@ -48,6 +49,7 @@ header nav{
 header ul{
     display: flex;
     list-style: none;
+    justify-content: flex-end;
 }
 header li{
     margin: 2%;
@@ -123,6 +125,26 @@ section{
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+#index_carousselle{
+    background-color: black;
+}
+img[title='cuisinemonde'],img[title="legumefeu"]{
+    opacity: 0.7;
+}
+img[title="logo_caroussel"]{
+    position: absolute;
+    z-index: 1300;
+    width: 30%;
+}
+#index_carousselle h1{
+    z-index: 1500;
+    position: absolute;
+    font-size: 5em;
+    top:25%;
+    width: 100%;
+    left: 23%;
+    text-shadow: 20px 10px black;
 }
 #index_decouverte_monde{
     display: flex;
@@ -201,7 +223,7 @@ img[title="flecheversbas"]{
     position: absolute;
     top: 91%;
     align-self: center;
-    background-color: crimson;
+    background-color: white;
     border-radius: 50%;
     padding: 1px;
 }
