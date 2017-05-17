@@ -219,6 +219,7 @@ footer ul{
     text-align: center;
 }
 .contact_form{
+    margin: 15px;
     text-align: center;
 }
 .contact .champ{
@@ -235,6 +236,16 @@ footer ul{
 .contact .bloc_contact{
     display: inline-grid;
     width: 300px;
+}
+.btn_envoyer{
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#478bf9;
+    color:#fff;
+    border-radius:2px;
+    width:100px;
+    border:none;
+}
 }
 /* ---------------- Fin Mickael -----------------*/
 
