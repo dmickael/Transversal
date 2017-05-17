@@ -349,6 +349,8 @@ a{
 /* ---------------- Fin Mickael -----------------*/
 
 
+
+
 /*     --------------MARIE -----------------*/
 /* styles culinaires*/
 .body{
@@ -381,7 +383,7 @@ h2{
     height: 100%;
     max-height: 200px;
 }
-.sc_blocpays .sc_pays{
+.sc_pays{
     margin:10px;
     width: 300px;
     display: inline-block;
@@ -418,6 +420,15 @@ h2{
 .sc_imgpays:hover{
     -webkit-filter: brightness(40%);
 }
+
+
+.sc_blocpaysdessert{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+
 /* differents plats */
 
 /* header */
@@ -513,7 +524,55 @@ h2{
     text-align: justify;
     font-family: ‘Dancing Script’, cursive;
 }
+.tarif{
+    font-size: 15px;
+    text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
+}
 
+
+/* BLOG & ACTU*/
+.actualite{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ba_title{
+    text-align: center;
+    font-family: ‘Dancing Script’, cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block_actualite{
+    width: 405px;
+    height: 500px;
+    display: inline-table;
+    border: outset 3px;
+    margin: 20px;
+
+}
+.block_actualite img{
+    width: 400px;
+    height: 280px;
+}
+.block_actualitetitle{
+    font-size: 20px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    text-align: center;
+
+}
+.block_actualitetext{
+    font-size: 15px;
+    text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
+    padding: 20px;
+
+}
+/*     ACTU       */
+
+/*       BLOG      */
 
 
 /*     --------------MARIE fin -----------------*/
