@@ -11,7 +11,6 @@
 
 </header>
 <section>
-
     <form action="gmail.php" method="post" enctype="multipart/form-data">
         <?php
         if (isset($_POST['nom'])) {
@@ -43,14 +42,20 @@
             <input class="champ" type="email" name="mail" id="mail" placeholder="Votre e-mail" required="required"/>
             <br/>
             <br/>
+            <input class="champ" type="text" name="societe" id="societe" placeholder="Votre société" required="required"/>
+            <br/>
+            <br/>
             <input class="champ" type="tel" name="phone" id="phone" placeholder="Votre numero de telephone" required="required"/>
             <br/>
             <br/>
             <select name="demande" id="demande">
                 <optgroup label="Objet de votre demande">
-                    <option value="Recrutement">Recrutement</option>
-                    <option value="Devis" selected>Demande de devis</option>
-                    <option value="Autre">Autre</option>
+                    <option value="Autre" selected>Autre</option>
+                    <option value="Mariages">Mariages</option>
+                    <option value="Baptèmes">Baptèmes</option>
+                    <option value="Séminaires">Séminaires</option>
+                    <option value="Apéritifs">Apéritifs</option>
+                    <option value="Anniversaires">Anniversaires</option>
                 </optgroup>
             </select>
         </div>

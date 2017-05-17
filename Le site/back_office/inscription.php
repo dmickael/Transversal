@@ -222,7 +222,7 @@
                 </select>
                 <input type="email" name="email" placeholder="Email" required />
                 <input type="password" name="mdp" placeholder="Mot de passe" required />
-                <input type="submit" name="submit" value="Register" />
+                <input type="submit" name="submit" value="S'enregistrer" />
             </form>
         </div>
     <?php } ?>
