@@ -10,16 +10,13 @@
 </head>
 <body>
 <header>
-    <?php
-    include("../header.html");
-    ?>
+    <?php include'../header.html'; ?>
 
 </header>
 
 <footer>
-    <?php
-    include ("../footer.html");
-    ?>
+    <?php include '../footer.html'; ?>
 </footer>
+
 </body>
 </html>
