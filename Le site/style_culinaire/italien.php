@@ -22,12 +22,6 @@
         <span class="plat_difspec">Arancini siciliens - Sandwich de Porchetta - Le Speck - La Burrata - Salade italienne - Lasagne - Artichauts farcis - Tiramisu -</span>
     </div>
 
-
-
-
-
-
-
     <div class="plat_blockdifferents">
 
         <div class="plat_blockrecette">
