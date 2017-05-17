@@ -110,6 +110,10 @@ footer ul{
     position: relative;
     top:-10px;
 }
+section{
+    display: flex;
+    flex-direction: column;
+}
 /*Accueil : Mael */
 #index_carousselle:focus{
     outline: 0;
@@ -135,12 +139,78 @@ footer ul{
 .slick-prev{
     left: 0;
 }
+#buttonarrownext{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 88%;
+    left:60%;
+
+    display: flex;
+
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+    border-radius: 50px;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+#buttonarrowprev{
+    font-size: 0;
+    line-height: 0;
+    z-index: 1000;
+    position: absolute;
+    top: 85%;
+    left:40%;
+    border-radius: 50px;
+    display: flex;
+
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
 #index_decouverte_monde div:last-of-type{
     flex-direction: row-reverse;
+}
+img[title="flecheversbas"]{
+    z-index: 1000;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 91%;
+    align-self: center;
+    background-color: rgb(210,38,43);
+    border-radius: 50%;
+    padding: 1px;
+}
+a{
+    align-self: center;
 }
 #index_decouverte_monde a{
     padding: 5px;
     border-radius: 50px;
+    margin-bottom: 2%;
 }
 .index_decouverte_monde_images{
     display: flex;

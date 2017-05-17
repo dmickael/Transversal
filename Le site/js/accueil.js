@@ -5,14 +5,14 @@ $(document).ready(function(){
     $('header').addClass('invisible');
     $('.slider').slick({
         touchMove:false,
-        prevArrow:'<button type="button" id="buttonarrowprev"><img src="../images/fleche.png" title="arrow"/></button>',
-        nextArrow:'<button type="button" id="buttonarrownext"><img src="../images/fleche.png" title="arrow"/></button>'
+        prevArrow:'<button type="button" id="buttonarrowprev"><img src="images/fleche.png" title="arrow"/></button>',
+        nextArrow:'<button type="button" id="buttonarrownext"><img src="images/fleche.png" title="arrow"/></button>'
     });
 });
 $(window).scroll(function(){
     var sticky = $('header'),
         scroll = $(window).scrollTop();
-    if (scroll>550) sticky.addClass('fixed'),
+    if (scroll>800) sticky.addClass('fixed'),
         sticky.removeClass('invisible');
     else sticky.removeClass('fixed'), sticky.addClass('invisible');
 });
