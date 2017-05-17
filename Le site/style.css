@@ -27,6 +27,17 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px black solid;
+    background-color: rgb(210,38,43);
+    z-index: 1100;
+}
+.invisible{
+    opacity: 0;
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+    top:0;
+    left:0;
 }
 header nav{
     width: 40%;
@@ -39,7 +50,7 @@ header li{
     margin: 2%;
 }
 img[title="logo"]{
-    width: 150px;
+    width: 250px;
     height: 150px;
     margin-left: 5%;
 }
@@ -97,7 +108,9 @@ footer ul{
     top:-10px;
 }
 
-
+#index_carousselle:focus{
+    outline: 0;
+}
 #index_carousselle img{
     width: 100%;
     display: flex;
@@ -107,9 +120,17 @@ footer ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+}
+.slick-slide, .slick-cloned{
+    outline: 0;
 }
 #index_decouverte_monde div:last-of-type{
     flex-direction: row-reverse;
+}
+#index_decouverte_monde a{
+    padding: 5px;
+    border-radius: 50px;
 }
 .index_decouverte_monde_images{
     display: flex;

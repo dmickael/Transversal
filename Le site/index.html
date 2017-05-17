@@ -3,27 +3,29 @@
         <head>
             <meta charset="utf-8">
             <title>Accueil</title>
+            <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+            <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
             <link href="style.css" rel="stylesheet">
             <link href=“https://fonts.googleapis.com/css?family=Dancing+Script” rel=“stylesheet”>
         </head>
         <body>
-            <header class="">
+            <header class="invisible">
                 <img src="images/logo.png" alt="logo du site" title="logo">
                 <nav>
                     <ul>
-                        <li><a href="#">Style Cullinaire</a></li>
-                        <li><a href="#">Evênement</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a class="texte_blanc" href="#">Style Cullinaire</a></li>
+                        <li><a class="texte_blanc" href="#">Evênement</a></li>
+                        <li><a class="texte_blanc" href="#">Blog</a></li>
+                        <li><a class="texte_blanc" href="#">Contact</a></li>
                     </ul>
                 </nav>
             </header>
             <section>
-                <div id="index_carousselle">
-                    <img src="images/" alt=""><!--
-                    <img src="images/" alt="">
-                    <img src="images/" alt="">
-                    <img src="images/" alt="">-->
+                <div id="index_carousselle" class="slider">
+                    <div><img src="images/" alt=""></div>
+                    <div><img src="images/" alt=""></div>
+                    <div><img src="images/" alt=""></div>
+                    <div><img src="images/" alt=""></div>
                 </div>
                 <article id="index_decouverte_monde">
                     <h2 class="titre_rouge">A la découverte du monde</h2>
@@ -35,6 +37,7 @@
                         <img src="images/" alt="">
                         <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
+                    <a class="texte_blanc fond_rouge" href="#">Découvrir!</a>
                 </article>
                 <div id="index_ils_adorent">
                     <h2 class="titre_blanc">Ils ont adoré</h2>
@@ -69,11 +72,11 @@
                 <div id="site_map">
                     <h3 class="titre_rouge">Site Map</h3>
                     <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Styles cullianires</a></li>
-                        <li><a href="#">Evênements</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a class="texte_blanc" href="#">Accueil</a></li>
+                        <li><a class="texte_blanc" href="#">Styles cullianires</a></li>
+                        <li><a class="texte_blanc" href="#">Evênements</a></li>
+                        <li><a class="texte_blanc" href="#">Blog</a></li>
+                        <li><a class="texte_blanc" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div id="contact_horaire">
@@ -95,5 +98,8 @@
                     <div id="map2"></div>
                 </div>
             </footer>
+            <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script src="js/accueil.js"></script>
         </body>
     </html>
