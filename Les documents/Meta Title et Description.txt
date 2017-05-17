@@ -106,14 +106,14 @@ Page : Cocktail
 Page : Wrap
 
 <title>Wrap | A l'équilibre</title>
-<meta name="description" content="description de la page"/>
+<meta name="description" content="Traiteur wrap pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
 
 <----------------------------------------------------------->
 
 Page : Libanais
 
 <title>Libanais | A l'équilibre</title>
-<meta name="description" content="Traiteur wrap pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
+<meta name="description" content="Traiteur libanais pour vos événements d'entreprise et événements privés partout en région Nantaise. De nombreux plats et formules sur-mesure disponibles à la réservation."/>
 
 <----------------------------------------------------------->
 

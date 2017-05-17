@@ -22,6 +22,9 @@
         if (isset($_POST['mail'])) {
             setcookie($_POST['mail']);
         }
+        if (isset($_POST['societe'])) {
+            setcookie($_POST['societe']);
+        }
         if (isset($_POST['phone'])) {
             setcookie($_POST['phone']);
         }
