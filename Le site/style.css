@@ -359,10 +359,12 @@ h2{
     text-align: justify;
     line-height: 25px;
     max-width: 700px;
+    font-family: ‘Dancing Script’, cursive;
 }
 .plat_blockpresentationglobal p:first-letter {
     float: left;
     font-size: 50px;
+    font-family: ‘Dancing Script’, cursive;
 }
 
 /* presentation des spécialité */
@@ -375,9 +377,11 @@ h2{
 }
 .plat_specialitetitle{
     font-size: 40px;
+    font-family: ‘Dancing Script’, cursive;
 }
 .plat_difspec{
     font-size: 15px;
+    font-family: ‘Dancing Script’, cursive;
 }
 
 /* les différents plats */
@@ -400,11 +404,14 @@ h2{
 .title_plat{
     font-size: 25px;
     text-transform : capitalize;
+    font-family: ‘Dancing Script’, cursive;
+
 
 }
 .plat_presentation{
     font-size: 15px;
     text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
 }
 
 
