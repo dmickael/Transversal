@@ -9,10 +9,7 @@
 </head>
 <body>
 <header>
-    <?php
-    include("../header.html");
-    ?>
-
+    <?php include'../header.html'; ?>
 </header>
 
     <div class="plat_blockheader">
@@ -61,7 +58,7 @@
         <div class="plat_blockrecette">
             <img src="images/italien/lasagne.jpg">
             <span class="title_plat">lasagne</span>
-            <p class="plat_presentation">Un plat incontournable, c'est le pur chef d'oeuvre de la cuisine italienne revisité en France par nos partenaires food trucks ! Une envie de manger l'authentique lasagne ? C'est ici !</p>
+            <p class="plat_presentation">Un plat incontournable, c'est le chef d'oeuvre de la cuisine italienne revisité en France par nos partenaires food trucks ! Une envie de manger l'authentique lasagne ? C'est ici !</p>
         </div>
         <div class="plat_blockrecette">
             <img src="images/italien/artichauts_farcis.jpg">
@@ -75,9 +72,7 @@
         </div>
     </div>
 <footer>
-    <?php
-    include ("../footer.html");
-    ?>
+    <?php include '../footer.html'; ?>
 </footer>
 
 </body>

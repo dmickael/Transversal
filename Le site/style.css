@@ -299,6 +299,7 @@ a{
     text-align: center;
 }
 .contact_form{
+    margin: 15px;
     text-align: center;
 }
 .contact .champ{
@@ -315,6 +316,15 @@ a{
 .contact .bloc_contact{
     display: inline-grid;
     width: 300px;
+}
+.btn_envoyer{
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#478bf9;
+    color:#fff;
+    border-radius:2px;
+    width:100px;
+    border:none;
 }
 /* ---------------- Fin Mickael -----------------*/
 
@@ -395,7 +405,7 @@ h2{
     position: relative;
     width: 100%;
     height: 400px;
-    background:url("images/italien/italie.jpg") no-repeat center ;
+    background:url("style_culinaire/images/italien/italie.jpg") no-repeat center ;
     -webkit-filter: brightness(60%);
     background-size: cover;
 }
@@ -429,10 +439,12 @@ h2{
     text-align: justify;
     line-height: 25px;
     max-width: 700px;
+    font-family: ‘Dancing Script’, cursive;
 }
 .plat_blockpresentationglobal p:first-letter {
     float: left;
     font-size: 50px;
+    font-family: ‘Dancing Script’, cursive;
 }
 
 /* presentation des spécialité */
@@ -445,9 +457,11 @@ h2{
 }
 .plat_specialitetitle{
     font-size: 40px;
+    font-family: ‘Dancing Script’, cursive;
 }
 .plat_difspec{
     font-size: 15px;
+    font-family: ‘Dancing Script’, cursive;
 }
 
 /* les différents plats */
@@ -470,11 +484,14 @@ h2{
 .title_plat{
     font-size: 25px;
     text-transform : capitalize;
+    font-family: ‘Dancing Script’, cursive;
+
 
 }
 .plat_presentation{
     font-size: 15px;
     text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
 }
 
 

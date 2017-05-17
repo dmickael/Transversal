@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-
+    <?php include 'header.html'; ?>
 </header>
 <section>
     <form class="contact_form" action="gmail.php" method="post" enctype="multipart/form-data">
@@ -76,7 +76,7 @@
 </section>
 
 <footer>
-
+    <?php include 'footer.html'; ?>
 </footer>
 
 </body>
