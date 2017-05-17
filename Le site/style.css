@@ -213,7 +213,30 @@ footer ul{
     margin-bottom: 1%;
     padding: 5px;}
 
+/* ---------------- Mickael -----------------*/
+.contact{
+    display: block;
+    text-align: center;
+}
+.contact_form{
+    text-align: center;
+}
+.contact .champ{
+    width: 300px;
+    text-align: center;
+}
+.contact #zonetextr{
+    height: 200px;
+}
 
+.contact .red{
+    color: red;
+}
+.contact .bloc_contact{
+    display: inline-grid;
+    width: 300px;
+}
+/* ---------------- Fin Mickael -----------------*/
 
 
 /*     --------------MARIE -----------------*/

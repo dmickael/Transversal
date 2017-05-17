@@ -11,7 +11,7 @@
 
 </header>
 <section>
-    <form action="gmail.php" method="post" enctype="multipart/form-data">
+    <form class="contact_form" action="gmail.php" method="post" enctype="multipart/form-data">
         <?php
         if (isset($_POST['nom'])) {
             setcookie($_POST['nom']);
@@ -35,37 +35,43 @@
             setcookie($_POST['zonetext']);
         }
         ?>
-        <div id="leftform">
-            <input class="champ" type="text" name="nom" id="nom" placeholder="Votre nom" required="required"/>
-            <br/>
-            <br/>
-            <input class="champ" type="text" name="prenom" id="prenom" placeholder="Votre prenom" required="required"/>
-            <br/>
-            <br/>
-            <input class="champ" type="email" name="mail" id="mail" placeholder="Votre e-mail" required="required"/>
-            <br/>
-            <br/>
-            <input class="champ" type="text" name="societe" id="societe" placeholder="Votre société" required="required"/>
-            <br/>
-            <br/>
-            <input class="champ" type="tel" name="phone" id="phone" placeholder="Votre numero de telephone" required="required"/>
-            <br/>
-            <br/>
-            <select name="demande" id="demande">
-                <optgroup label="Objet de votre demande">
-                    <option value="Autre" selected>Autre</option>
-                    <option value="Mariages">Mariages</option>
-                    <option value="Baptèmes">Baptèmes</option>
-                    <option value="Séminaires">Séminaires</option>
-                    <option value="Apéritifs">Apéritifs</option>
-                    <option value="Anniversaires">Anniversaires</option>
-                </optgroup>
-            </select>
+        <div class="contact">
+            <h2 class="red">Nous contacter</h2>
+            <div class="bloc_contact">
+                <input class="champ" type="text" name="nom" id="nom" placeholder="Votre nom" required="required"/>
+                <br/>
+                <br/>
+                <input class="champ" type="text" name="prenom" id="prenom" placeholder="Votre prenom" required="required"/>
+                <br/>
+                <br/>
+                <input class="champ" type="email" name="mail" id="mail" placeholder="Votre e-mail" required="required"/>
+                <br/>
+                <br/>
+                <input class="champ" type="text" name="societe" id="societe" placeholder="Votre société" required="required"/>
+                <br/>
+                <br/>
+                <input class="champ" type="tel" name="phone" id="phone" placeholder="Votre numero de telephone" required="required"/>
+                <br/>
+                <br/>
+            </div>
+            <div class="bloc_contact bloc_espace"></div>
+            <div class="bloc_contact">
+                <select name="demande" id="demande">
+                    <optgroup label="Objet de votre demande">
+                        <option value="Autre" selected>Autre</option>
+                        <option value="Mariages">Mariages</option>
+                        <option value="Baptèmes">Baptèmes</option>
+                        <option value="Séminaires">Séminaires</option>
+                        <option value="Apéritifs">Apéritifs</option>
+                        <option value="Anniversaires">Anniversaires</option>
+                    </optgroup>
+                </select>
+                <br/>
+                <br/>
+                <input class="champ" type="text" name="zonetext" id="zonetextr" placeholder="Votre message" required="required"/>
+            </div>
         </div>
-        <div id="zonetext">
-            <input class="champ" type="text" name="zonetext" id="zonetextr" placeholder="Votre message" required="required"/>
-            <input type="submit" value="Envoyer" id="envoie1"/>
-        </div>
+        <input class="btn_envoyer" type="submit" value="Envoyer"/>
     </form>
 </section>
 
