@@ -1,13 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title></title>
-    <meta charset="utf-8"/>
+    <title>Italien | A l'Èquilibre</title>
+    <meta name="description" content="Traiteur italien pour vos ÈvÈnements d'entreprise et ÈvÈnements privÈs partout en rÈgion Nantaise. De nombreux plats et formules sur-mesure disponibles ‡ la rÈservation."/>    <meta charset="utf-8"/>
     <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 <body>
+<header>
+    <?php
+    include("../header.html");
+    ?>
+
+</header>
+
     <div class="plat_blockheader">
         <div class="plat_blocktitle">
             <h2>ita<span class="plat_spanblocktitle">l</span>ien</h2>
@@ -67,7 +74,11 @@
             <p class="plat_presentation">Un dessert regorgeant d'une multitude de cacao, un mélange subtil qui vous émerveillera vers les traditions italiennes ! Pour tous les rêveurs et les envieux de saveurs nouvelles !</p>
         </div>
     </div>
-
+<footer>
+    <?php
+    include ("../footer.html");
+    ?>
+</footer>
 
 </body>
 </html>
