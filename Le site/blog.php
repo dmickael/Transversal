@@ -90,6 +90,12 @@
         </div>
     </div>
 </div>
+<hr>
+<p class="ba_title">Blog</p>
+
+<div>
+
+</div>
 
 
 

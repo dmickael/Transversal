@@ -543,7 +543,7 @@ h2{
     font-size: 20px;
     font-weight: bold;
 }
-
+/*     ACTU       */
 .block_actualite{
     width: 405px;
     height: 600px;
@@ -597,9 +597,17 @@ h2{
     transform:scale(1.05);
 }
 
-/*     ACTU       */
+
 
 /*       BLOG      */
+
+hr{
+    margin: 10px auto;
+    width: 50%;
+    height: 2px;
+    background-color: crimson;
+    border: none;
+}
 
 
 /*     --------------MARIE fin -----------------*/
