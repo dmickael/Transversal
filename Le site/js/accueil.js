@@ -2,15 +2,26 @@
  * Created by maelb on 16/05/2017.
  */
 $(document).ready(function(){
+    $('header').addClass('invisible');
     $('.slider').slick({
-        touchMove:false,
-        accebility:false
+        touchMove:false
     });
 });
 $(window).scroll(function(){
     var sticky = $('header'),
         scroll = $(window).scrollTop();
-    if (scroll>500) sticky.addClass('fixed'),
-    sticky.removeClass('invisible');
+    if (scroll>550) sticky.addClass('fixed'),
+        sticky.removeClass('invisible');
     else sticky.removeClass('fixed'), sticky.addClass('invisible');
 });
+function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'),{
+        mapTypeId:google.maps.MapTypeId.satelite,
+        center: {lat:47.227, lng: -1.5519566},
+        zoom: 11,
+        scrollwheel:false,
+        streetViewControl:false,
+        mapTypeControl:false
+    });
+}
+google.maps.event.addDomListener(window,'load', initMap);

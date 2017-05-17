@@ -94,8 +94,8 @@ footer ul{
     align-self: center;
 }
 #localisation #map2{
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 160px;
     background-color: white;
     margin-bottom: 10px;
 }
@@ -127,6 +127,13 @@ footer ul{
 }
 .slick-slide, .slick-cloned{
     outline: 0;
+}
+.slick-next{
+    right: 0;
+    z-index: 1100;
+}
+.slick-prev{
+    left: 0;
 }
 #index_decouverte_monde div:last-of-type{
     flex-direction: row-reverse;
@@ -167,9 +174,12 @@ footer ul{
     align-items: center;
 }
 #map{
-    width: 300px;
+    width: 350px;
     height: 200px;
     background-color: black;
+}
+#map a{
+    opacity: 0;
 }
 #index_carte_localisation{
     display: flex;

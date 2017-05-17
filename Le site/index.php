@@ -17,7 +17,8 @@
     <link href=“https://fonts.googleapis.com/css?family=Dancing+Script” rel=“stylesheet”>
 </head>
 <body>
-<?php include('header.html') ?>
+<?php include('header.html');
+require ('back_office/db.php') ?>
 <section>
     <div id="index_carousselle" class="slider">
         <div><img src="images/" alt=""></div>
@@ -67,8 +68,10 @@
     </article>
 </section>
 <?php include('footer.html') ?>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/footer.js"></script>
 <script src="js/accueil.js"></script>
 </body>
 </html>
