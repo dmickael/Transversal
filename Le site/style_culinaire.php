@@ -9,6 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 <body>
+<header>
+    <?php
+    include("header.html");
+    ?>
+</header>
 <div class="sc_title">
     <h2>Aux travers de nos 16 <span>Styles culinaires</span></h2>
 </div>
@@ -142,6 +147,12 @@
         </a>
     </div>
 </div>
+<footer>
+    <?php
+    include ("footer.html");
+    ?>
+</footer>
+
 </body>
 </html>
 
