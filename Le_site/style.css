@@ -284,12 +284,12 @@ a{
     width: 400px;
 }
 #index_nous_trouver a{
-    align-self: flex-end;
+    align-self: center;
     margin-right: 2%;
     margin-top: 2%;
     border-radius: 50px;
     width: 80px;
-    padding: 2px;
+    padding: 5px;
     text-align: center;
 }
 #index_equipe{
@@ -307,8 +307,29 @@ a{
     width: 150px;
     border-radius: 50px;
 }
+/* Container de la carte, garde la bonne perspective lors du retournement */
+.flip-container {perspective: 1000px;}
+
+/* Tourne la carte lors du passage de la souris */
+.flip-container:hover .flipper, .flip-container.hover .flipper {transform: rotateY(180deg);}
+
+/* Définition de la hauteur / largeur de la carte (toute la carte, puis chaque côté) */
+.flip-container, .front, .back {width: 150px;height: 150px;}
+
+/* Vitesse de l'animation */
+.flipper {transition: 1s;transform-style: preserve-3d;position: relative;}
+
+/* On cache l'autre côté lors du retournement */
+.front, .back {backface-visibility: hidden;position: absolute;top: 0;left: 0;}
+
+/* Face de devant, initiallement au dessus */
+.front {z-index: 2;/* Pour firefox 31 */transform: rotateY(0deg);}
+
+/* Face arrière, initiallement cachée */
+.back {transform: rotateY(180deg);background-color: crimson;border-radius: 50px;display: flex;align-items: center;font-family: 'Dancing Script';font-size: 1.2em}
+
 #index_equipe a{
-    align-self: flex-end;
+    align-self: center;
     margin-right: 2%;
     background-color: white;
     border-radius: 50px;

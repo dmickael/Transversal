@@ -62,10 +62,46 @@ require ('back_office/db.php') ?>
     <article id="index_equipe" class="fond_rouge">
         <h2 class="titre_blanc">Notre équipe</h2>
         <div id="index_collegue">
-            <img src="images/membres_equipe/mael.png" alt="photo ">
-            <img src="images/membres_equipe/maxime.png" alt="photo ">
-            <img src="images/membres_equipe/marie.PNG" alt="photo ">
-            <img src="images/" alt="photo ">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="images/membres_equipe/mael.png" alt="photo ">
+                    </div>
+                    <div class="back">
+                        <p class="texte_blanc">Maël Bournigal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="images/membres_equipe/maxime.png" alt="photo ">
+                    </div>
+                    <div class="back">
+                        <p class="texte_blanc">Maxime Grand</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="images/membres_equipe/marie.PNG" alt="photo ">
+                    </div>
+                    <div class="back">
+                        <p class="texte_blanc">Marie Dadomo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="images/" alt="photo ">
+                    </div>
+                    <div class="back">
+                        <p class="texte_blanc">Mickaël Delanoë</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <a class="texte_rouge" href="equipe.html">Plus d'infos....</a>
     </article>
