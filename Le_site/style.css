@@ -33,6 +33,7 @@ header{
     z-index: 1100;
     box-shadow: -10px 2px 10px black;
     background-color: white;
+    flex-wrap: wrap;
 }
 .invisible{
     opacity: 0;
@@ -65,6 +66,7 @@ footer{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
 }
 footer ul{
     list-style: none;
@@ -153,6 +155,7 @@ h1{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .slick-slide, .slick-cloned{
     outline: 0;
@@ -215,6 +218,7 @@ h1{
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
 }
+
 #index_decouverte_monde div:last-of-type{
     flex-direction: row-reverse;
 }
@@ -241,6 +245,7 @@ a{
     display: flex;
     width: 80%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .index_decouverte_monde_images img{
     width: 400px;
@@ -248,12 +253,12 @@ a{
 }
 .index_decouverte_monde_images p{
     width: 400px;
-    height: 200px;
 }
 #index_ils_adorent ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #index_ils_adorent img{
     width: 100px;
@@ -279,6 +284,7 @@ a{
     flex-direction: row;
     width: 80%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #index_carte_localisation p{
     width: 400px;
@@ -297,18 +303,16 @@ a{
     align-items: center;
     flex-direction: column;
     margin-top:5px;
+    flex-wrap: wrap;
 }
 #index_collegue{
     display: flex;
-    justify-content:space-between ;
-    width: 60%;
-}
-#index_equipe img{
-    width: 150px;
-    border-radius: 50px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 /* Container de la carte, garde la bonne perspective lors du retournement */
-.flip-container {perspective: 1000px;}
+.flip-container {perspective: 1000px;margin: 2%}
 
 /* Tourne la carte lors du passage de la souris */
 .flip-container:hover .flipper, .flip-container.hover .flipper {transform: rotateY(180deg);}
@@ -323,10 +327,24 @@ a{
 .front, .back {backface-visibility: hidden;position: absolute;top: 0;left: 0;}
 
 /* Face de devant, initiallement au dessus */
-.front {z-index: 2;/* Pour firefox 31 */transform: rotateY(0deg);}
-
+.front {
+    z-index: 2;/* Pour firefox 31 */
+    transform: rotateY(0deg);
+}
+.front img{
+    border-radius: 50px;
+}
 /* Face arrière, initiallement cachée */
-.back {transform: rotateY(180deg);background-color: crimson;border-radius: 50px;display: flex;align-items: center;font-family: 'Dancing Script';font-size: 1.2em}
+.back {transform: rotateY(180deg);  overflow: hidden; display: flex; align-items: center;font-family: 'Dancing Script'; font-size: 1.2em}
+
+.vertical.flip-container {position: relative;}
+
+.vertical .back {transform: rotateX(180deg);}
+
+.vertical.flip-container .flipper {transform-origin: 100% 213.5px;}
+
+.vertical.flip-container:hover .flipper {transform: rotateX(-180deg);}
+
 
 #index_equipe a{
     align-self: center;
@@ -705,11 +723,13 @@ hr{
     #index_carousselle{height: 70%;}img[title="continuer"]{top:63%}h1{top:8%}
 }
 
-@media screen and (min-width: 1050px) and (max-width:1249px) {
-    #index_carousselle{height: 60%;}img[title="continuer"]{top:53%}h1{top:7%}
+@media screen and (min-width: 1001px) and (max-width:1249px) {
+    #index_carousselle{height: 300px;}img[title="continuer"]{top:260px;width: 35px;height: 35px}h1{top:-10px}#buttonarrowprev{width: 35px;height: 35px;top: 234px}#buttonarrownext{width: 35px;height: 35px;top:250px}
 }
-
-@media screen and (min-width: 780px) and (max-width:1049px) {
-    #index_carousselle{height: 30%;}img[title="continuer"]{top:43%}h1{top:4%}
+@media screen and (min-width: 200px) and (max-width:1000px) {
+    #index_carousselle{height: 300px;}img[title="continuer"]{top:250px;width: 30px;height: 30px}h1{top:-10px;}#buttonarrownext{width: 30px;height: 30px;top:245px}#buttonarrowprev{width: 30px;height: 30px;top:230px}#contact_horaire{align-items: flex-end}#horaires p{width: 160px}
+}
+@media screen and (min-width: 200px) and (max-width: 600px){
+    #site_map ul{text-align: center; width: 150px}
 }
 
