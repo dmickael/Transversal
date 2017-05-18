@@ -5,6 +5,9 @@ $(document).ready(function(){
     $('header').addClass('invisible');
     $('.slider').slick({
         touchMove:false,
+        mobileFirst:true,
+        autoplay:true,
+        autoplaySpeed:2000,
         prevArrow:'<button type="button" id="buttonarrowprev"><img src="images/fleche.png" title="précédent"/></button>',
         nextArrow:'<button type="button" id="buttonarrownext"><img src="images/fleche.png" title="suivant"/></button>'
     });
