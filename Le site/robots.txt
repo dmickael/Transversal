@@ -4,4 +4,5 @@ Disallow: /*.jpg$
 Disallow: /*.png$
 Disallow: /*.gif$
 Disallow: /images/
+Disallow: /back_office/
 Allow: /

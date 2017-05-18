@@ -348,6 +348,18 @@ a{
     width:100px;
     border:none;
 }
+.contact_gmail{
+    text-align: center;
+}
+.contact_img{
+    margin:auto;
+    text-align: center;
+}
+.bloc_gmail{
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
 /* ---------------- Fin Mickael -----------------*/
 
 
@@ -545,10 +557,10 @@ h2{
     font-size: 20px;
     font-weight: bold;
 }
-
+/*     ACTU       */
 .block_actualite{
     width: 405px;
-    height: 500px;
+    height: 600px;
     display: inline-table;
     border: outset 3px;
     margin: 20px;
@@ -558,6 +570,14 @@ h2{
     width: 400px;
     height: 280px;
 }
+.date_blog {
+    font-size: 13px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    text-align:left ;
+    margin-left: 10px;
+}
+
 .block_actualitetitle{
     font-size: 20px;
     font-family: ‘Dancing Script’, cursive;
@@ -570,12 +590,44 @@ h2{
     text-align: justify;
     font-family: ‘Dancing Script’, cursive;
     padding: 20px;
+}
+.blog_bouton{
+    margin-left: auto;
+    margin-right: auto;
+    width:100px;
 
 }
-/*     ACTU       */
+.blog_bouton a{
+    background-color:crimson;
+    font-size: 15px;
+    cursor:pointer;
+    font-family: ‘Dancing Script’, cursive;
+    text-decoration:none;
+    color:white;
+    border-radius: 50px;
+
+}
+.blog_bouton:hover {
+    transform:scale(1.05);
+}
+
+
 
 /*       BLOG      */
 
+hr{
+    margin: 10px auto;
+    width: 50%;
+    height: 2px;
+    background-color: crimson;
+    border: none;
+}
+/*
+.avisblock  p:first-letter {
+    float: left;
+    font-size: 20px;
+    font-family: ‘Dancing Script’, cursive;
+}*/
 
 /*     --------------MARIE fin -----------------*/
 
@@ -595,4 +647,48 @@ h2{
 
 @media screen and (min-width: 780px) and (max-width:1049px) {
     #index_carousselle{height: 30%;}img[title="continuer"]{top:43%}h1{top:4%}
+}
+=======
+.avis{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+}
+
+.avisblock img {
+    width: 300px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+ }
+
+.avisblock img:hover{
+    transform:scale(1.05);
+    -webkit-filter: brightness(60%);
+    border-radius: 30px;
+
+}
+.avisblock{
+    display: inline-block;
+    max-width: 340px;
+    max-height: 245px;
+}
+.avisblock p{
+    position: relative;
+    font-size: 15px ;
+    font-weight: bold;
+    text-align: justify;
+    max-width: 250px;
+    max-height: 300px;
+    font-family: ‘Dancing Script’, cursive;
+    display:none;
+
+
+}
+.avisblock  p:hover {
+    color: crimson;
+    bottom: 220px;
+    display: block;
+
 }

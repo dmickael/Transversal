@@ -20,38 +20,7 @@
 </div>
 <div class="sc_blocpays">
 
-    <div class="sc_pays">
-        <a href="style_culinaire/cocktail.html">
-            <div class="sc_blocktitle">
-                <span class="sc_paystitle">cocktails</span>
-            </div>
-            <img class="sc_imgpays" src="images/styles_culinaires/cocktail.jpg">
-        </a>
-    </div>
-    <div class="sc_pays">
-        <a href="style_culinaire/glace.html">
-            <div class="sc_blocktitle">
-                <span class="sc_paystitle">glaces</span>
-            </div>
-            <img class="sc_imgpays" src="images/styles_culinaires/glace.jpg">
-        </a>
-    </div>
-    <div class="sc_pays">
-        <a href="style_culinaire/gateau.html">
-            <div class="sc_blocktitle">
-                <span class="sc_paystitle">gateaux</span>
-            </div>
-            <img class="sc_imgpays" src="images/styles_culinaires/gateau.jpg">
-        </a>
-    </div>
-    <div class="sc_pays">
-        <a href="style_culinaire/crepe.html">
-            <div class="sc_blocktitle">
-                <span class="sc_paystitle">crepes</span>
-            </div>
-            <img class="sc_imgpays" src="images/styles_culinaires/crepe.jpg">
-        </a>
-    </div>
+
     <div class="sc_pays">
         <a href="style_culinaire/italien.html">
             <div class="sc_blocktitle">
@@ -148,6 +117,44 @@
         </a>
     </div>
 </div>
+<hr>
+
+<div class="sc_blocpays">
+
+    <div class="sc_pays">
+        <a href="style_culinaire/cocktail.html">
+            <div class="sc_blocktitle">
+                <span class="sc_paystitle">cocktails</span>
+            </div>
+            <img class="sc_imgpays" src="images/styles_culinaires/cocktail.jpg">
+        </a>
+    </div>
+    <div class="sc_pays">
+        <a href="style_culinaire/glace.html">
+            <div class="sc_blocktitle">
+                <span class="sc_paystitle">glaces</span>
+            </div>
+            <img class="sc_imgpays" src="images/styles_culinaires/glace.jpg">
+        </a>
+    </div>
+    <div class="sc_pays">
+        <a href="style_culinaire/gateau.html">
+            <div class="sc_blocktitle">
+                <span class="sc_paystitle">gateaux</span>
+            </div>
+            <img class="sc_imgpays" src="images/styles_culinaires/gateau.jpg">
+        </a>
+    </div>
+    <div class="sc_pays">
+        <a href="style_culinaire/crepe.html">
+            <div class="sc_blocktitle">
+                <span class="sc_paystitle">crepes</span>
+            </div>
+            <img class="sc_imgpays" src="images/styles_culinaires/crepe.jpg">
+        </a>
+    </div>
+</div>
+
 <footer>
     <?php
     include ("footer.html");

@@ -18,7 +18,7 @@
 		$mdp = stripslashes($_REQUEST['mdp']);
 		$mdp = mysqli_real_escape_string($con,$mdp);
 
-        $query = "SELECT * FROM `utilisateurs` WHERE `nom`='$nom' and mot_de_passe='".md5($mdp)."'";
+        $query = "SELECT * FROM `utilisateurs` WHERE `nom_utilisateur`='$nom' and mot_de_passe='".md5($mdp)."'";
 		$result = mysqli_query($con,$query) or die(mysql_error());
 		$rows = mysqli_num_rows($result);
         if($rows==1){
