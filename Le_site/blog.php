@@ -94,15 +94,56 @@
 <p class="ba_title">Avis</p>
 
 
-    <div class="avis">
-        <div class="avisblock">
-
-            <div class="blog_textcache">
-                <img src="images/blog/foodsense.png">
-                <p>Quisque desiderata igitur et iis quidem quisque dandis amicitia et a causa est videri quidquid nihil fictum Nam minus vicissimque ut minus causa per quisque videri est recipiendisque antiquior causa.</p>
-            </div>
+<div class="ba_section">
+    <article class="style-1">
+        <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
+        <div>
+            <h3>Machine de Nantes</h3>
+            <span>John Doe</span>
+            <a href="#">Plus de détails</a>
         </div>
-    </div>
+    </article>
+    <article class="style-1">
+        <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
+        <div>
+            <h3>Machine de Nantes</h3>
+            <span>John Doe</span>
+            <a href="#">Plus de détails</a>
+        </div>
+    </article>
+    <article class="style-1">
+        <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
+        <div>
+            <h3>Machine de Nantes</h3>
+            <span>John Doe</span>
+            <a href="#">Plus de détails</a>
+        </div>
+    </article>
+    <article class="style-1">
+        <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
+        <div>
+            <h3>Machine de Nantes</h3>
+            <span>John Doe</span>
+            <a href="#">Plus de détails</a>
+        </div>
+    </article>
+    <article class="style-1">
+        <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
+        <div>
+            <h3>Machine de Nantes</h3>
+            <span>John Doe</span>
+            <a href="#">Plus de détails</a>
+        </div>
+    </article>
+    <article class="style-1">
+        <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
+        <div>
+            <h3>Machine de Nantes</h3>
+            <span>John Doe</span>
+            <a href="#">Plus de détails</a>
+        </div>
+    </article>
+</div>
 
 
 
