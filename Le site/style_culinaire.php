@@ -22,7 +22,7 @@
 
 
     <div class="sc_pays">
-        <a href="style_culinaire/italien.html">
+        <a href="style_culinaire/italien.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">italien</span>
             </div>
@@ -30,7 +30,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/pate.html">
+        <a href="style_culinaire/pate.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">pates</span>
             </div>
@@ -38,7 +38,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/pizza.html">
+        <a href="style_culinaire/pizza.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">pizza</span>
             </div>
@@ -46,7 +46,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/wrap.html">
+        <a href="style_culinaire/wrap.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">wrap</span>
             </div>
@@ -54,7 +54,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/japonais.html">
+        <a href="style_culinaire/japonais.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">japonais</span>
             </div>
@@ -62,7 +62,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/wok.html">
+        <a href="style_culinaire/wok.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">wok</span>
             </div>
@@ -70,7 +70,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/grec.html">
+        <a href="style_culinaire/grec.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">grec</span>
             </div>
@@ -78,7 +78,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/mexicain.html">
+        <a href="style_culinaire/mexicain.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">mexicain</span>
             </div>
@@ -86,14 +86,14 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/indien.html">
+        <a href="style_culinaire/indien.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">indien</span></div>
             <img class="sc_imgpays" src="images/styles_culinaires/indien.jpg">
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/argentin.html">
+        <a href="style_culinaire/argentin.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">argentin</span>
             </div>
@@ -101,7 +101,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/libanais.html">
+        <a href="style_culinaire/libanais.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">libanais</span>
             </div>
@@ -109,7 +109,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/burger.html">
+        <a href="style_culinaire/burger.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">burger</span>
             </div>
@@ -122,7 +122,7 @@
 <div class="sc_blocpays">
 
     <div class="sc_pays">
-        <a href="style_culinaire/cocktail.html">
+        <a href="style_culinaire/cocktail.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">cocktails</span>
             </div>
@@ -130,7 +130,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/glace.html">
+        <a href="style_culinaire/glace.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">glaces</span>
             </div>
@@ -138,7 +138,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/gateau.html">
+        <a href="style_culinaire/gateau.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">gateaux</span>
             </div>
@@ -146,7 +146,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/crepe.html">
+        <a href="style_culinaire/crepe.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">crepes</span>
             </div>
