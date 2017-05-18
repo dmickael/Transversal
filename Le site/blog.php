@@ -91,13 +91,18 @@
     </div>
 </div>
 <hr>
-<p class="ba_title">Blog</p>
-
-<div>
-
-</div>
+<p class="ba_title">Avis</p>
 
 
+    <div class="avis">
+        <div class="avisblock">
+
+            <div class="blog_textcache">
+                <img src="images/blog/foodsense.png">
+                <p>Quisque desiderata igitur et iis quidem quisque dandis amicitia et a causa est videri quidquid nihil fictum Nam minus vicissimque ut minus causa per quisque videri est recipiendisque antiquior causa.</p>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -106,5 +111,6 @@
     include ("footer.html");
     ?>
 </footer>
+
 </body>
 </html>
