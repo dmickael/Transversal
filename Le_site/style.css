@@ -673,24 +673,57 @@ html, .ba_section {
     box-sizing: border-box;
 }
 
+.ba_section {
+    -webkit-perspective: 1700px;
+    -moz-perspective: 1700px;
+    perspective: 1700px;
+    -webkit-perspective-origin: 0 50%;
+    -moz-perspective-origin: 0 50%;
+    perspective-origin: 0 50%;
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
 .ba_section article{
-    margin: 0;
     position: relative;
     display: inline-block;
     width: 400px;
 }
+.ba_section article.style-1:hover div {
+    opacity: 1;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+    -ms-transform: translate(15px, 15px);
+    transform: translate(15px, 15px);
+}
+
+.style-1 div {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.ba_section div{
+     position: absolute;
+     top:0; left:0;
+     padding: 20px;
+     background: #2c3f52 ;
+     color: #ed4e6e ;
+ }
 .ba_section article img {
     max-width: 100%;
     display: block;
     position: relative;
 }
-.ba_section div{
-    position: absolute;
-    top:0; left:0;
-    padding: 20px;
-    background: #2c3f52 ;
-    color: #ed4e6e ;
-}
+
 .ba_section div h3 {
     margin:0;
     padding:0;
@@ -713,29 +746,14 @@ html, .ba_section {
     background-color: #fff;
     color: #ed4e6e ;
 }
-
-
-.style-1 div {
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s;
+.ba_section  div.desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #2c3f52;
+    color: #ed4e6e;
 }
-
-.ba_section article.style-1:hover div {
-    opacity: 1;
-    -webkit-transform: translate(15px, 15px);
-    -moz-transform: translate(15px, 15px);
-    -ms-transform: translate(15px, 15px);
-    transform: translate(15px, 15px);
-}
-
 .style-1 div h3 {
     margin-top: 70px;
 }
@@ -745,86 +763,14 @@ html, .ba_section {
 .style-1 div a {
     margin-top: 30px;
 }
-
-.ba_section  div.desc {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
-    background: #2c3f52;
-    color: #ed4e6e;
+.ba_section div.desc span:before {
+    content: 'by ';
 }
 .ba_section div.desc h3 {
     margin: 0;
     padding: 0;
     color: #fff;
 }
-.ba_section div.desc span:before {
-    content: 'by ';
-}
-.ba_section div.desc a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: #ed4e6e;
-    color: #fff;
-    text-decoration: none;
-    transition: all .3s linear;
-}
-.ba_section div.desc a:hover {
-    background-color: #fff;
-    color:#ed4e6e;
-}
-
-.ba_section {
-    -webkit-perspective: 1700px;
-    -moz-perspective: 1700px;
-    perspective: 1700px;
-    -webkit-perspective-origin: 0 50%;
-    -moz-perspective-origin: 0 50%;
-    perspective-origin: 0 50%;
-}
-
-.ba_section div.desc {
-    position: absolute;
-    top: 0;left: 0;
-    padding: 20px;
-    background: #2c3f52;
-    color: #ed4e6e;
-}
-.ba_section div.desc h3 {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
-.ba_section div.desc span:before {
-    content: 'by ';
-}
-.ba_section div.desc a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: #ed4e6e;
-    color: #fff;
-    text-decoration: none;
-    transition: all .3s linear;
-}
-.ba_section div.desc a:hover {
-    background-color: #fff;
-    color:#ed4e6e;
-}
-
-.ba_section {
-    -webkit-perspective: 1700px;
-    -moz-perspective: 1700px;
-    perspective: 1700px;
-    -webkit-perspective-origin: 0 50%;
-    -moz-perspective-origin: 0 50%;
-    perspective-origin: 0 50%;
-}
-
 
 
 .avis{
