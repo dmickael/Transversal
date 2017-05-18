@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <?php include 'header.html'; ?>
+</header>
+<section>
 <?php
 
 if (isset($_POST['societe'])) {
@@ -56,12 +67,25 @@ $mail->Body = $msg;
 $mail->AltBody = "No HTML Body. Great story goes here!";
 
 if(!$mail->Send()){
-    echo "Mailer erreur: " . $mail->ErrorInfo;
-    echo '</br><a href="javascript:history.go(-1)">Retour</a>';
+    echo "<p class='contact_gmail'>Votre email n'a pu être envoyé veuillez réessayer ulterieurement : </p>" . $mail->ErrorInfo;
+    echo "<p class='contact_gmail'>Redirection dans 5 secondes</p>";
+    header("refresh:5;url=index.php");
+    exit();
 }else{
-    echo "E-Mail a été envoyer";
-    echo '</br><a href="javascript:history.go(-1)">Retour</a>';
+    echo "<img class='contact_img' src='images/merci.png'><br>";
+    echo "<p class='contact_gmail'>redirection dans 5 secondes</p>";
+    header("refresh:5;url=index.php");
+    exit();
 }
-?>;
 
+?>;
+    <?php include 'header.html'; ?>
+</section>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
 
