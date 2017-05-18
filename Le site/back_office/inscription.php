@@ -39,7 +39,7 @@
 
 
         $date_inscription = date("Y-m-d H:i:s");
-        $query = "INSERT into `utilisateurs` (nom, prenom, date_de_naissance, telephone, mot_de_passe, e_mail, date_inscription) VALUES ('$nom', '$first_name', '$date', '$tel', '".md5($mdp)."', '$email', '$date_inscription')";
+        $query = "INSERT into `utilisateurs` (nom_utilisateur, prenom_utilisateur, date_de_naissance, telephone, mot_de_passe, e_mail, date_inscription) VALUES ('$nom', '$first_name', '$date', '$tel', '".md5($mdp)."', '$email', '$date_inscription')";
         $result = mysqli_query($con,$query);
         if($result){
             echo "<div class='form'><h3>Enregistrer avec sucess.</h3><br/>Clique ici pour se <a href='connection.php'>connecter</a></div>";
