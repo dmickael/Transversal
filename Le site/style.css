@@ -628,27 +628,6 @@ hr{
     font-size: 20px;
     font-family: ‘Dancing Script’, cursive;
 }*/
-
-/*     --------------MARIE fin -----------------*/
-
-/*---------------------------------------------------------------------------------- Responsiv-------------------------------------------------------------------------------------------*/
-
-@media screen and (min-width: 1500px) and (max-width:1900px) {
-    #index_carousselle{height: 80%;}img[title="continuer"]{top:73%}h1{top:10%}
-}
-
-@media screen and (min-width: 1250px) and (max-width:1499px) {
-    #index_carousselle{height: 70%;}img[title="continuer"]{top:63%}h1{top:8%}
-}
-
-@media screen and (min-width: 1050px) and (max-width:1249px) {
-    #index_carousselle{height: 60%;}img[title="continuer"]{top:53%}h1{top:7%}
-}
-
-@media screen and (min-width: 780px) and (max-width:1049px) {
-    #index_carousselle{height: 30%;}img[title="continuer"]{top:43%}h1{top:4%}
-}
-=======
 .avis{
     margin-top: 30px;
     margin-left: auto;
@@ -661,7 +640,7 @@ hr{
     position: relative;
     padding: 0;
     margin: 0;
- }
+}
 
 .avisblock img:hover{
     transform:scale(1.05);
@@ -692,3 +671,24 @@ hr{
     display: block;
 
 }
+
+/*     --------------MARIE fin -----------------*/
+
+/*---------------------------------------------------------------------------------- Responsiv-------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1500px) and (max-width:1900px) {
+    #index_carousselle{height: 80%;}img[title="continuer"]{top:73%}h1{top:10%}
+}
+
+@media screen and (min-width: 1250px) and (max-width:1499px) {
+    #index_carousselle{height: 70%;}img[title="continuer"]{top:63%}h1{top:8%}
+}
+
+@media screen and (min-width: 1050px) and (max-width:1249px) {
+    #index_carousselle{height: 60%;}img[title="continuer"]{top:53%}h1{top:7%}
+}
+
+@media screen and (min-width: 780px) and (max-width:1049px) {
+    #index_carousselle{height: 30%;}img[title="continuer"]{top:43%}h1{top:4%}
+}
+

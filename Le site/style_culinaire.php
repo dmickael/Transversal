@@ -22,7 +22,7 @@
 
 
     <div class="sc_pays">
-        <a href="style_culinaire/italien.html">
+        <a href="style_culinaire/italien.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">italien</span>
             </div>
@@ -30,7 +30,7 @@
         </a>
     </div>
     <div class="sc_pays">
-        <a href="style_culinaire/pate.html">
+        <a href="style_culinaire/pate.php">
             <div class="sc_blocktitle">
                 <span class="sc_paystitle">pates</span>
             </div>
