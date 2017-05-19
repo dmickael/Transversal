@@ -4,7 +4,13 @@
  * User: maelb
  * Date: 17/05/2017
  * Time: 09:39
- */?>
+ */;
+Try {
+    $bdd = new PDO('mysql:host=localhost;dbname=a_l_equilibre;charset=utf8', 'root', '');
+}
+catch (PDOException $e) {
+    die('Erreur : ' . $e->getMessage());
+}?>
 
 <!DOCTYPE>
 <html>
@@ -18,8 +24,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<?php include('header.html');
-require ('back_office/db.php') ?>
+<?php include('header.html'); ?>
     <section>
         <h1 class="titre_blanc titre_caroussel">A l'equilibre</h1>
         <div id="index_carousselle" class="slider">
@@ -56,61 +61,34 @@ require ('back_office/db.php') ?>
                 <div id="map"></div>
                 <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <a class="texte_blanc fond_rouge" href="horaires.html">Plus....</a>
+            <a class="texte_blanc fond_rouge" href="horaires.php">Plus....</a>
         </div>
         <article id="index_equipe" class="fond_rouge">
             <h2 class="titre_blanc">Notre équipe</h2>
             <div id="index_collegue">
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/membres_equipe/mael.png" alt="photo ">
-                        </div>
-                        <div class="back">
-                            <p class="texte_blanc">Maël Bournigal</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/membres_equipe/maxime.png" alt="photo ">
-                        </div>
-                        <div class="back">
-                            <p class="texte_blanc">Maxime Grand</p>
+                <?php $result=$bdd->query('Select * FROM membres');
+                while ($equipe=$result->fetch()){
+                    ?> <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img src="<?php echo $equipe['image_membre'] ?>" alt="photo ">
+                            </div>
+                            <div class="back">
+                                <p class="texte_blanc"><?php echo $equipe['prenom_membre']." ".$equipe['nom_membre'] ?></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/membres_equipe/marie.PNG" alt="photo ">
-                        </div>
-                        <div class="back">
-                            <p class="texte_blanc">Marie Dadomo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/" alt="photo ">
-                        </div>
-                        <div class="back">
-                            <p class="texte_blanc">Mickaël Delanoë</p>
-                        </div>
-                    </div>
-                </div>
+                <?php }?>
             </div>
-            <a class="texte_rouge" href="equipe.html">Plus d'infos....</a>
+            <a class="texte_rouge" href="equipe.php">Plus d'infos....</a>
         </article>
     </section>
-<?php include('footer.html') ?>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
-<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script src="js/footer.js"></script>
-<script src="js/header.js"></script>
-<script src="js/accueil.js"></script>
+    <?php include('footer.html') ?>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/accueil.js"></script>
 </body>
 </html>
