@@ -88,6 +88,7 @@ header ul{
 }
 header li{
     margin: 2%;
+    font-family: 'Dancing Script';
 }
 img[title="logo"]{
     width: 170px;
@@ -184,6 +185,14 @@ img[title='cuisinemonde'],img[title='legumefeu'],img[title='fruitlegume'],img[ti
     text-align: center;
     text-shadow: 20px 10px black;
 }
+.move{
+    top:300px;
+    position: absolute;
+    z-index: 1500;
+    font-size: 5em;
+    width: 100%;
+    text-align: center;
+}
 #index_decouverte_monde{
     display: flex;
     flex-direction: column;
@@ -255,17 +264,6 @@ img[title='cuisinemonde'],img[title='legumefeu'],img[title='fruitlegume'],img[ti
 
 #index_decouverte_monde div:last-of-type{
     flex-direction: row-reverse;
-}
-img[title="continuer"]{
-    z-index: 1000;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 91%;
-    align-self: center;
-    background-color: white;
-    border-radius: 50%;
-    padding: 1px;
 }
 a{
     align-self: center;
@@ -888,13 +886,13 @@ html, .ba_section {
     header nav{z-index:16000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:relative; text-align:center; font-size:12px;}
     nav ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;flex-direction: column;}
     nav li { padding:5px; border-bottom:#dddddd 1px solid;}
-    nav li:hover{background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    nav li:hover{background:#ffffff; border-bottom:#dddddd 1px solid; font-size: 1.5em}
     nav ul li a { text-decoration:none;  margin: 0px; color:#666;}
     nav ul li a:hover {  color: #666; text-decoration:none;}
     nav a{text-decoration:none; color:#666;}
     nav a:hover{text-decoration:none; color:#666;}
 }
 @media screen and (min-width: 200px) and (max-width: 600px){
-    #site_map ul{text-align: center; width: 150px}.titre_caroussel{font-size: 4em;top:120px}
+    #site_map ul{text-align: center; width: 150px}.titre_caroussel{font-size: 4em;top:120px}.move{font-size: 4em;}.move2{top: 600px}
 }
 

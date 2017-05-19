@@ -28,7 +28,6 @@ require ('back_office/db.php') ?>
             <div><img src="images/image_caroussel/fruit_legume.jpg" title="fruitlegume" alt="fruit et legume"></div>
             <div><img src="images/image_caroussel/cuisine_du_monde.jpg" title="cuisinemonde" alt="cuisine du monde"></div>
         </div>
-        <a href="#ancre_decouverte_monde"><img src="images/flechebas.png" title="continuer"></a>
         <article id="index_decouverte_monde">
             <h2 class="titre_rouge" id="ancre_decouverte_monde">A la découverte du monde</h2>
             <div class="index_decouverte_monde_images">
