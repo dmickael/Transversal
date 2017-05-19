@@ -7,7 +7,6 @@
     <meta charset="utf-8"/>
     <link href="style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -15,6 +14,7 @@
     include("header.html");
     ?>
 </header>
+
 <div class="sc_title">
     <h2>Aux travers de nos 16 <span>Styles culinaires</span></h2>
 </div>
