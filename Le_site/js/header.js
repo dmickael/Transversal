@@ -24,12 +24,6 @@ $(function () {
         if (window.innerWidth < 1000) {
             $(".cross").hide();
             $("nav").hide();
-            $(".cross").click(function () {
-                $("nav").slideToggle("slow", function () {
-                    $(".cross").hide();
-                    $(".hamburger").show();
-                });
-            });
         }
         else{$("nav").slideToggle("slow", function () {
             $(".cross").hide();
