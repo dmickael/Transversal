@@ -18,7 +18,7 @@ if (largeur_fenetre > 1000) {
     $(window).scroll(function () {
         var sticky = $('header'),
             scroll = $(window).scrollTop();
-        if (scroll > 800) sticky.addClass('fixed'),
+        if (scroll > 650) sticky.addClass('fixed'),
             sticky.removeClass('invisible');
         else sticky.removeClass('fixed'), sticky.addClass('invisible');
     });
