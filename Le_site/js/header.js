@@ -18,16 +18,13 @@ if (window.innerWidth<1000) {
 }
 $(function () {
     $(window).resize(function () {
-        $(".cross").hide();
-        $("nav").hide();
-        $(".hamburger").show();
         if (window.innerWidth < 1000) {
             $(".cross").hide();
             $("nav").hide();
-        }
-        else{$("nav").slideToggle("slow", function () {
-            $(".cross").hide();
             $(".hamburger").show();
-        });}
+            $(".hamburger").click(function(){});
+            $(".cross").click(function (){});
+        }
+        else{$("nav").show();}
     });
 });

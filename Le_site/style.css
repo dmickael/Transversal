@@ -866,18 +866,20 @@ html, .ba_section {
 /*---------------------------------------------------------------------------------- Responsiv-------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1500px) and (max-width:1900px) {
-    #index_carousselle{height: 80%;}img[title="continuer"]{top:73%}h1{top:10%}
+    #index_carousselle{height: 80%;}img[title="continuer"]{top:73%}.titre_caroussel{top:30px}
 }
 
 @media screen and (min-width: 1250px) and (max-width:1499px) {
-    #index_carousselle{height: 70%;}img[title="continuer"]{top:63%}h1{top:8%}
+    #index_carousselle{height: 70%;}img[title="continuer"]{top:63%}.titre_caroussel{top:10px}
 }
 
 @media screen and (min-width: 1001px) and (max-width:1249px) {
-    #index_carousselle{height: 300px;}img[title="continuer"]{top:260px;width: 35px;height: 35px}h1{top:-10px}#buttonarrowprev{width: 35px;height: 35px;top: 234px}#buttonarrownext{width: 35px;height: 35px;top:250px}
+    #index_carousselle{height: 300px;}img[title="continuer"]{top:260px;width: 35px;height: 35px}.titre_caroussel{top:10px}#buttonarrowprev{width: 35px;height: 35px;top: 234px}#buttonarrownext{width: 35px;height: 35px;top:250px}
 }
 @media screen and (min-width: 200px) and (max-width:1000px) {
-    #index_carousselle{height: 300px;}img[title="continuer"]{top:340px;width: 30px;height: 30px}h1{top:80px;text-shadow: none}
+    #index_carousselle{height: 300px;}
+    img[title="continuer"]{top:340px;width: 30px;height: 30px}
+    .titre_caroussel{top:80px;text-shadow: none}
     #buttonarrownext{width: 30px;height: 30px;top:245px}
     #buttonarrowprev{width: 30px;height: 30px;top:230px}
     #contact_horaire{align-items: flex-end}
@@ -893,6 +895,6 @@ html, .ba_section {
     nav a:hover{text-decoration:none; color:#666;}
 }
 @media screen and (min-width: 200px) and (max-width: 600px){
-    #site_map ul{text-align: center; width: 150px}h1{font-size: 4em;top:120px}
+    #site_map ul{text-align: center; width: 150px}.titre_caroussel{font-size: 4em;top:120px}
 }
 
