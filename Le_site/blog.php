@@ -14,23 +14,101 @@
     include("header.html");
     ?>
 </header>
-<div class="sc_title">
-    <h2>Blog & Actualité</h2>
-</div>
+<?php
+
+session_start();
+
+Try {
+    $bdd = new PDO('mysql:host=localhost;dbname=a_l_equilibre;charset=latin1', 'root', '');
+}
+catch (PDOException $e) {
+    die('Erreur : ' . $e->getMessage());
+}
+?>
+
+
+<h2 class="sc_title">Blog & Actualité</h2>
+
+
 <p class="ba_title">Actualités</p>
+
+
+<div class="actualite">
+
+    <?php
+    $result=$bdd->query('SELECT * FROM blog');
+    while ($data= $result->fetch()) {
+
+        $_SESSION['id'] = $data[code_blog];
+
+        ?>
+
+        <div class="block_actualite">
+            <img src="images/actu_blog/<?php echo $data['image_blog']; ?>"" class="blog_image">
+            <p class="date_blog"><?php echo $data['date_blog']; ?></p>
+
+
+            <p class="block_actualitetitle"><?php echo $data['titre_article']; ?></p>
+
+            <p class="block_actualitetext"><?php echo $data['description_article']; ?></p>
+
+
+            <div class="blog_bouton">
+                <p>
+                    <a href=" article/article_detail.php ?>">Découvrir</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="block_actualite">
+            <img src="images/actu_blog/<?php echo $data['image_blog']; ?>"" class="blog_image">
+            <p class="date_blog"><?php echo $data['date_blog']; ?></p>
+
+
+            <p class="block_actualitetitle"><?php echo $data['titre_article']; ?></p>
+
+            <p class="block_actualitetext"><?php echo $data['description_article']; ?></p>
+
+
+            <div class="blog_bouton">
+                <p>
+                    <a href=" article/article_detail.php ?>">Découvrir</a>
+                </p>
+            </div>
+        </div>
+
+    <?php }
+    ?>
+</div>
+
+
+
+<!--
+
 <div class="actualite">
     <div class="block_actualite">
         <img src="images/actu_blog/anniversaire%20original.jpg">
         <p class="date_blog"> 16/01/2017</p>
 
+
+
         <p class="block_actualitetitle"> Un food truck pour votre mariage </p>
+
         <p class="block_actualitetext"> La street food règne en maitre sur nos déjeuners, et depuis quelques temps, on retrouve également les désormais célèbres food trucks sur les mariages. </p>
+
+
         <div class="blog_bouton">
             <p>
                 <a href="#">Découvrir</a>
             </p>
         </div>
     </div>
+
+
+
+
+
+
     <div class="block_actualite">
         <img src="images/actu_blog/food_truck.jpg">
         <p class="date_blog"> 16/01/2017</p>
@@ -43,6 +121,9 @@
             </p>
         </div>
     </div>
+
+
+
 </div>
 <div class="actualite">
     <div class="block_actualite">
@@ -157,9 +238,7 @@
         </div>
     </article>
 </div>
-
-
-
+-->
 
 
 <footer>

@@ -15,6 +15,7 @@
     include("header.html");
     ?>
 </header>
+
 <div class="sc_title">
     <h2>Aux travers de nos 16 <span>Styles culinaires</span></h2>
 </div>
