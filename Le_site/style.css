@@ -586,9 +586,8 @@ h2{
 
 /* BLOG & ACTU*/
 .actualite{
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
 }
 .ba_title{
     text-align: center;
@@ -603,6 +602,7 @@ h2{
     display: inline-table;
     border: outset 3px;
     margin: 20px;
+
 
 }
 .block_actualite img{
@@ -636,19 +636,22 @@ h2{
     width:100px;
 
 }
-.blog_bouton a{
-    background-color:crimson;
-    font-size: 15px;
-    cursor:pointer;
-    font-family: ‘Dancing Script’, cursive;
-    text-decoration:none;
+.blog_bouton  a {
+    text-align:center;
+    padding:5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background:crimson ;
     color:white;
-    border-radius: 50px;
+    text-decoration: none;
+    transition:all .3s linear;
+    font-family: ‘Dancing Script’, cursive;
+}
+.blog_bouton a:hover {
+    background-color: white;
+    color: crimson ;
+}
 
-}
-.blog_bouton:hover {
-    transform:scale(1.05);
-}
 
 
 
@@ -680,10 +683,8 @@ html, .ba_section {
     -webkit-perspective-origin: 0 50%;
     -moz-perspective-origin: 0 50%;
     perspective-origin: 0 50%;
-
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1200px;
+    display: flex;
+    justify-content: center;
 }
 
 .ba_section article{
@@ -697,6 +698,10 @@ html, .ba_section {
     -moz-transform: translate(15px, 15px);
     -ms-transform: translate(15px, 15px);
     transform: translate(15px, 15px);
+}
+.style-1{
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .style-1 div {
@@ -715,8 +720,8 @@ html, .ba_section {
      position: absolute;
      top:0; left:0;
      padding: 20px;
-     background: #2c3f52 ;
-     color: #ed4e6e ;
+     background: black ;
+     color: crimson ;
  }
 .ba_section article img {
     max-width: 100%;
@@ -737,31 +742,37 @@ html, .ba_section {
     padding:5px 10px;
     border-radius: 2px;
     display: inline-block;
-    background:#ed4e6e ;
-    color:#fff;
+    background:crimson ;
+    color:white;
     text-decoration: none;
     transition:all .3s linear;
 }
 .ba_section div a:hover {
-    background-color: #fff;
-    color: #ed4e6e ;
+    background-color: white;
+    color: crimson ;
 }
 .ba_section  div.desc {
     position: absolute;
     top: 0;
     left: 0;
     padding: 20px;
-    background: #2c3f52;
-    color: #ed4e6e;
+    background: black;
+    color: crimson;
 }
 .style-1 div h3 {
     margin-top: 70px;
+    font-family: ‘Dancing Script’, cursive;
+
 }
 .style-1 div span {
     display: block;
+    font-family: ‘Dancing Script’, cursive;
+
 }
 .style-1 div a {
     margin-top: 30px;
+    font-family: ‘Dancing Script’, cursive;
+
 }
 .ba_section div.desc span:before {
     content: 'by ';
@@ -769,7 +780,7 @@ html, .ba_section {
 .ba_section div.desc h3 {
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: white;
 }
 
 
@@ -814,8 +825,9 @@ html, .ba_section {
     color: crimson;
     bottom: 220px;
     display: block;
-
 }
+
+
 
 /*     --------------MARIE fin -----------------*/
 

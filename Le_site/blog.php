@@ -43,6 +43,8 @@
             </p>
         </div>
     </div>
+</div>
+<div class="actualite">
     <div class="block_actualite">
         <img src="images/actu_blog/festival_foodtruck.jpg">
         <p class="date_blog"> 16/01/2017</p>
@@ -67,6 +69,8 @@
             </p>
         </div>
     </div>
+</div>
+<div class="actualite">
     <div class="block_actualite">
         <img src="images/actu_blog/anniversaire%20original.jpg">
         <p class="date_blog"> 16/01/2017</p>
@@ -91,7 +95,8 @@
     </div>
 </div>
 <hr>
-<p class="ba_title">Avis</p>
+
+<p class="ba_title">BLog</p>
 
 
 <div class="ba_section">
@@ -111,6 +116,8 @@
             <a href="#">Plus de détails</a>
         </div>
     </article>
+</div>
+<div class="ba_section">
     <article class="style-1">
         <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
         <div>
@@ -119,6 +126,8 @@
             <a href="#">Plus de détails</a>
         </div>
     </article>
+
+
     <article class="style-1">
         <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
         <div>
@@ -127,6 +136,10 @@
             <a href="#">Plus de détails</a>
         </div>
     </article>
+</div>
+
+<div class="ba_section">
+
     <article class="style-1">
         <img src="images/actu_blog/Machines-Nantes.jpg" alt="img01">
         <div>
@@ -144,6 +157,8 @@
         </div>
     </article>
 </div>
+
+
 
 
 
