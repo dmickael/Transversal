@@ -9,13 +9,13 @@
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     </head>
 
-    <body>
-        <header>
-            <?php include'../header.html'; 
-            ?>
-        </header>
+<body>
+    <header>
+        <?php include'../header.html';
+        ?>
+    </header>
 
-        <?php
+    <?php
 
         session_start();
 
@@ -25,12 +25,9 @@
         catch (PDOException $e) {
             die('Erreur : ' . $e->getMessage());
         }
-        ?>
-
-
-            <h1 id="title_events">Prestations événementielles :</h1>
-
-                <div class="events">
+    ?>
+        <h1 id="title_events">Prestations événementielles :</h1>
+        <div class="events">
 
             <?php
                 $result=$bdd->query('SELECT * FROM evenements');
@@ -50,16 +47,14 @@
                             </p>
                         </div>
                     </div>
-            <?php } 
+            <?php }
             ?>
+        </div>
+    <footer>
+        <?php include '../footer.html';
+        ?>
+    </footer>
 
-                </div>
-
-        <footer>
-            <?php include '../footer.html'; 
-            ?>
-        </footer>
-
-    </body>
+</body>
 
 </html>
