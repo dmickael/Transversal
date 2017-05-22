@@ -15,11 +15,66 @@
     ?>
 </header>
 
+
 <div class="sc_title">
     <h2>Aux travers de nos 16 <span>Styles culinaires</span></h2>
 </div>
+
+
 <div class="sc_blocpays">
 
+    <?php
+
+    session_start();
+
+    Try {
+        $bdd = new PDO('mysql:host=localhost;dbname=a_l_equilibre;charset=latin1', 'root', '');
+    }
+    catch (PDOException $e) {
+        die('Erreur : ' . $e->getMessage());
+    }
+    ?>
+
+    <?php
+    $result=$bdd->query('SELECT * FROM specialite_culinaire');
+    while ($data= $result->fetch()) {
+        $_SESSION['id'] = $data[code_blog];
+        ?>
+
+
+    <div class="sc_blocpays">
+        <div class="sc_pays">
+            <a href="style_culinaire/italien.php">
+                <div class="sc_blocktitle">
+                    <span class="sc_paystitle"><?php echo $data['nom_type_menu']; ?></span>
+                </div>
+                <img class="sc_imgpays" src="images/styles_culinaires/<?php echo $data['image_type_menu']; ?>"" class="specialite_culinaire_image">">
+            </a>
+        </div>
+    </div>
+
+
+    <div class="sc_blocpays">
+        <div class="sc_pays">
+            <a href="style_culinaire/italien.php">
+                <div class="sc_blocktitle">
+                    <span class="sc_paystitle"><?php echo $data['nom_type_plat']; ?></span>
+                </div>
+                <img class="sc_imgpays" src="images/styles_culinaires/<?php echo $data['image_type_plat']; ?>"" class="specialite_culinaire_image">">
+            </a>
+        </div>
+    </div>
+
+    <?php }
+    ?>
+
+
+
+
+
+
+
+    <!--
 
     <div class="sc_pays">
         <a href="style_culinaire/italien.php">
@@ -29,6 +84,9 @@
             <img class="sc_imgpays" src="images/styles_culinaires/italien.jpg">
         </a>
     </div>
+
+
+
     <div class="sc_pays">
         <a href="style_culinaire/pate.php">
             <div class="sc_blocktitle">
@@ -154,6 +212,8 @@
         </a>
     </div>
 </div>
+
+-->
     <?php
     include ("footer.html");
     ?>
