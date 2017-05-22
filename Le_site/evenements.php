@@ -20,7 +20,7 @@
                 die('Erreur : ' . $e->getMessage());
             }
         ?>
-            <h1 id="title_events">Prestations événementielles :</h1>
+            <h1 class="titre_rouge">Prestations événementielles :</h1>
             <div class="events">
 
                 <?php

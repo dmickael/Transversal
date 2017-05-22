@@ -665,6 +665,56 @@ h2{
 }
 
 
+/* Partie Maxime - Événements */
+.events{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.block_event{
+    width: 405px;
+    height: 600px;
+    display: inline-table;
+    border: outset 3px;
+    margin: 20px;
+}
+.event_image{
+    width: 400px;
+    height: 280px;
+}
+.event_title{
+    font-size: 20px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    text-align: center;
+}
+.event_text{
+    font-size: 15px;
+    text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
+    padding: 20px;
+}
+.event_bouton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+.event_bouton  a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    transition:all .3s linear;
+    font-family: ‘Dancing Script’, cursive;
+}
+.event_bouton a:hover {
+    background-color: white;
+    color: crimson;
+}
 /* BLOG & ACTU*/
 .actualite{
     display: flex;
