@@ -990,6 +990,20 @@ html, .ba_section {
     display: block;
 }
 
+/*   PAge 404 */
+
+#404{
+    font-size: 70px;
+}
+
+#page_inexistante p {
+
+}
+
+#page_inexistante span {
+
+}
+
 
 
 /*     --------------MARIE fin -----------------*/
