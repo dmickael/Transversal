@@ -1016,16 +1016,90 @@ html, .ba_section {
 
 /*   PAge 404 */
 
-#404{
-    font-size: 70px;
+html {
+    background: #ccc;
+    font: bold 14px/20px "Trajan Pro", "Times New Roman", Times, serif;
+    color: white;
+    text-shadow: 0 1px 0
 }
 
-#page_inexistante p {
 
+.erreur-page {
+    width: 310px;
+    height: 310px;
+    margin: 155px auto;
 }
 
-#page_inexistante span {
 
+.erreur-page:before {
+    box-shadow: 0 0 200px 150px #fff;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+    content: '';
+    display: block;
+    font: bold 14px/20px "Trajan Pro", "Times New Roman", Times, serif;
+    color: white;
+    text-shadow: 0 1px 0;
+}
+
+.erreur-block {
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    top: -310px;
+    position: relative;
+    text-align: center;
+    background: crimson;
+}
+
+.erreur-block:before {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    box-shadow: 3px 25px 0 5px crimson;
+    content: '';
+    z-index: -1;
+    display: block;
+    position: relative;
+    top: -19px;
+    left: 44px;
+}
+
+.erreur-block:after {
+    width: 310px;
+    height: 17px;
+    margin: 0 auto;
+    top: 25px;
+    content: '';
+    z-index: -1;
+    display: block;
+    position: relative;
+    background: radial-gradient( rgba(0, 0, 0, 0.65) 0%, rgba(35, 26, 26, 0) 59%, rgba(60, 44, 44, 0) 100%);
+}
+
+.erreur-block h1 {
+    color: white;
+    font-size: 100px;
+    margin: 65px auto 0 auto;
+    text-shadow: 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.erreur-block h2 {
+    margin: 55px 0 30px 0;
+    font-size: 17px;
+}
+
+.erreur_retour {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.erreur_retour:hover {
+    color: black;
+    text-shadow: 0 0 3px black;
 }
 
 
