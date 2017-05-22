@@ -13,6 +13,24 @@
 
 </header>
 
+
+<div class="plat_blockheader">
+    <div class="plat_blocktitle">
+        <h2 class="plat_blockheader">Argentin</h2>
+        <img src="images/argentin/argentine%202.jpg">
+    </div>
+</div>
+<div class="plat_blockpresentationglobal">
+    <img src="images/argentin/logo.png">
+    <p>Le pays de la viande recèle de nombreuses surprises ! Des plats typiques qui retracent une histoire, un concept et vous emmène tout droit au pays de la chaleur et de la fête en tout simplicité ! Découvrez la streetfood argentinoise à travers les délicieuses recettes de nos foodtrucks argentins.</p>
+</div>
+<div class="plat_blockspecialite">
+    <span class="plat_specialitetitle">Spécialité:</span>
+    <span class="plat_difspec"> </span>
+</div>
+
+
+
 <?php
 
 session_start();
@@ -31,28 +49,11 @@ while ($data= $result->fetch()) {
     $_SESSION['id'] = $data[code_blog];
     ?>
 
-    <div class="plat_blockheader">
-        <div class="plat_blocktitle">
-            <h2 class="plat_blockheader"><?php echo $data['plat_presentationpaysArgentin']; ?></h2>
-        </div>
-    </div>
-    <div class="plat_blockpresentationglobal">
-        <img src="images/italien/<?php echo $data['logo_specialite_culinaireArgentin']; ?>"" class="specialite_culinaire_logo">
-        <p><?php echo $data['description_pays']; ?></p>
-    </div>
-    <div class="plat_blockspecialite">
-        <span class="plat_specialitetitle"><?php echo $data['plat_specialitetitleArgentin']; ?></span>
-        <span class="plat_difspec"><?php echo $data['plat_difspecArgentin']; ?></span>
-    </div>
-
-
     <div class="plat_blockdifferents">
-
-
         <div class="plat_blockrecette">
-            <img src="images/italien/<?php echo $data['image_specialite_culinaireArgentin']; ?>"" class="specialite_culinaire_image">
-            <span class="title_plat"><?php echo $data['title_platArgentin']; ?></span>
-            <p class="plat_presentation"><?php echo $data['plat_presentationArgentin']; ?></p>
+            <img src="images/italien/<?php echo $data['image_menu']; ?>"" class="specialite_culinaire_image">
+            <span class="title_plat"><?php echo $data['nom_menu']; ?></span>
+            <p class="plat_presentation"><?php echo $data['description_menu']; ?></p>
         </div>
     </div>
 
