@@ -11,7 +11,7 @@ include("auth.php"); ?>
 <div class="form">
 <p>Bienvenue <?php echo $_SESSION['nom']; ?> !</p>
 <p>Page sécuriser.</p>
-<p><a href="exemple.php">Autre page securiser</a></p>
+<p><a href="addarticles.php">Ajouter article</a></p>
 <a href="deconnection.php">Déconnection</a>
 
 </div>
