@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Ajout d'article</title>
+    <title>Ajout de plat</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -10,11 +10,11 @@
 include ('auth.php');
 require('db.php');
 // If form submitted, insert values into the database.
-if (isset($_REQUEST['nom_article'])){
-    $nom_article = stripslashes($_REQUEST['nom_article']);
-    $nom_article = mysqli_real_escape_string($con,$nom_article);
-    $code_type_article = stripslashes($_REQUEST['code_type_article']);
-    $code_type_article = mysqli_real_escape_string($con,$code_type_article);
+if (isset($_REQUEST['nom_plat'])){
+    $nom_plat = stripslashes($_REQUEST['nom_plat']);
+    $nom_plat = mysqli_real_escape_string($con,$nom_plat);
+    $code_type_plat = stripslashes($_REQUEST['code_type_plat']);
+    $code_type_plat = mysqli_real_escape_string($con,$code_type_plat);
     $auteur = stripslashes($_REQUEST['auteur']);
     $auteur = mysqli_real_escape_string($con,$auteur);
     $lien = stripslashes($_REQUEST['lien']);
@@ -40,11 +40,7 @@ if (isset($_REQUEST['nom_article'])){
     $result = mysqli_query($con,$query);
 
 
-<<<<<<< HEAD
     $destination = '../images/image_article/'; // dossier où sera déplacé le fichier
-=======
-    $destination = 'files/'; // dossier où sera déplacé le fichier
->>>>>>> origin/Principal
 
     $fichier = $_FILES['fichier']['tmp_name'];
 
@@ -69,10 +65,6 @@ if (isset($_REQUEST['nom_article'])){
         exit("Impossible de sauvegarde dans $destination");
     }
 
-<<<<<<< HEAD
-=======
-    $result = mysqli_query($con,$query);
->>>>>>> origin/Principal
     echo "Le fichier a bien été envoyé";
 
 
