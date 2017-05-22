@@ -1,7 +1,6 @@
 <!DOCTYPE>
 
 <html>
-
     <head>
         <title>Événements | A l'Équilibre</title>
         <meta name="description" content="Foodtruck, rejoignez notre réseau et bénéficiez de nos services événementiels. Avec nous, boostez votre chiffre d’amitié."/>
