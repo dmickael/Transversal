@@ -45,7 +45,7 @@ catch (PDOException $e) {
             while ($data= $result->fetch()) { ?>
             <div class="plat_blockrecette">
                 <img src="images/images_style_culinaire/<?php  echo $data['nom_type_menu']?>/<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
-                <span class="title_plat"><?php echo $data['nom_menu']; ?></span>
+                <h3 class="title_plat titre_rouge"><?php echo $data['nom_menu']; ?></h3>
                 <p class="plat_presentation"><?php echo $data['description_menu']; ?></p>
             </div>
 

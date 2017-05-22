@@ -508,7 +508,6 @@ h2{
 .sc_blocpays{
     text-align: center;
     margin-top: 8px;
-    margin-bottom: 10px;
 }
 .sc_blocktitle{
     position: absolute;
@@ -582,14 +581,15 @@ h2{
 /* presentation pays */
 
 .plat_blockpresentationglobal{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .plat_blockpresentationglobal img{
     width: 100px;
+    height: 100px;
     float: left;
+    align-self: center;
 }
 .plat_blockpresentationglobal p{
     text-align: justify;
@@ -609,11 +609,12 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .plat_difspec{
     font-size: 15px;
     font-family: ‘Dancing Script’, cursive;
-    width: 50%;
+    width: 500px;
     margin-left: 2%;
 }
 
@@ -625,6 +626,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .plat_blockdifferentstitreimg h1{
     font-size: 5em;
@@ -645,6 +647,7 @@ h2{
     align-items: center;
     margin: 1%;
 }
+
 #block_fullrecette{
     display: flex;
     flex-wrap: wrap;
