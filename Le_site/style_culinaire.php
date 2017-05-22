@@ -25,36 +25,30 @@
 
     <?php
 
-    session_start();
-
     Try {
-        $bdd = new PDO('mysql:host=localhost;dbname=a_l_equilibre;charset=ut8', 'root', '');
+        $bdd = new PDO('mysql:host=localhost;dbname=a_l_equilibre;charset=utf8', 'root', '');
     }
     catch (PDOException $e) {
         die('Erreur : ' . $e->getMessage());
     }
     ?>
-
+    <div class="sc_blocpays">
     <?php
-    $result=$bdd->query('SELECT * FROM types_menu');
+    $result=$bdd->query('SELECT * FROM types_menu ORDER BY code_type_menu');
     while ($data= $result->fetch()) {
         ?>
-
-
-    <div class="sc_blocpays">
         <div class="sc_pays">
-            <a href="style_culinaire/italien.php?id<?php $data['id_'] ?>">
+            <a href="cullinaire_detail.php?id='<?php echo $data['code_type_menu']?>'">
                 <div class="sc_blocktitle">
                     <span class="sc_paystitle"><?php echo $data['nom_type_menu']; ?></span>
                 </div>
-                <img class="sc_imgpays" src="images/styles_culinaires/<?php echo $data['image_type_menu']; ?>"" class="specialite_culinaire_image">">
+                <img class="sc_imgpays" src="<?php echo $data['image_type_menu']; ?>"" class="specialite_culinaire_image">
             </a>
         </div>
-    </div>
 
     <?php }
     ?>
-
+    </div>
 
 
 
