@@ -12,6 +12,22 @@
     <?php include'../header.html'; ?>
 
 </header>
+
+<div class="plat_blockheader">
+    <div class="plat_blocktitle">
+        <h2 class="plat_blockheader">Argentin</h2>
+        <img src="images/argentin/">
+    </div>
+</div>
+<div class="plat_blockpresentationglobal">
+    <img src="images/argentin/">
+    <p></p>
+</div>
+<div class="plat_blockspecialite">
+    <span class="plat_specialitetitle">Spécialité:</span>
+    <span class="plat_difspec"> </span>
+</div>
+
 <?php
 
 session_start();
@@ -29,21 +45,6 @@ $result=$bdd->query('SELECT * FROM specialite_culinaire');
 while ($data= $result->fetch()) {
     $_SESSION['id'] = $data[code_blog];
     ?>
-
-    <div class="plat_blockheader">
-        <div class="plat_blocktitle">
-            <h2 class="plat_blockheader"><?php echo $data['plat_presentationpaysCrepe']; ?></h2>
-        </div>
-    </div>
-    <div class="plat_blockpresentationglobal">
-        <img src="images/italien/<?php echo $data['logo_specialite_culinaireCrepe']; ?>"" class="specialite_culinaire_logo">
-        <p><?php echo $data['description_paysCrepe']; ?></p>
-    </div>
-    <div class="plat_blockspecialite">
-        <span class="plat_specialitetitle"><?php echo $data['plat_specialitetitleCrepe']; ?></span>
-        <span class="plat_difspec"><?php echo $data['plat_difspecCrepe']; ?></span>
-    </div>
-
 
     <div class="plat_blockdifferents">
 

@@ -10,6 +10,22 @@
 <header>
     <?php include'../header.html'; ?>
 </header>
+
+<div class="plat_blockheader">
+    <div class="plat_blocktitle">
+        <h2 class="plat_blockheader">Italien</h2>
+        <img src="images/italien/Vernazza-Italie.jpg">
+    </div>
+</div>
+<div class="plat_blockpresentationglobal">
+    <img src="images/italien/italie%20logo.png">
+    <p>La cuisine italienne est incontournable et toujours réalisée autour d'ingrédients frais et de bonne qualité. L'Italie est un paradis pour les gourmets et nos Food Trucks partenaires regorgent de recettes toujours plus alléchantes les unes que les autres. Si vous avez envie de déguster les délicieuses saveurs méditerranéennes dans un climat de confiance, l'italien est fait pour vous.</p>
+</div>
+<div class="plat_blockspecialite">
+    <span class="plat_specialitetitle">Spécialité:</span>
+    <span class="plat_difspec">Arancini siciliens - Sandwich de Porchetta - Le Speck - La Burrata - Salade italienne - Lasagne - Artichauts farcis - Tiramisu -</span>
+</div>
+
 <?php
 
 session_start();
@@ -28,31 +44,13 @@ catch (PDOException $e) {
         $_SESSION['id'] = $data[code_blog];
         ?>
 
-        <div class="plat_blockheader">
-            <div class="plat_blocktitle">
-                <h2 class="plat_blockheader"><?php echo $data['plat_presentationpaysItalien']; ?></h2>
-            </div>
-        </div>
-        <div class="plat_blockpresentationglobal">
-            <img src="images/italien/<?php echo $data['logo_specialite_culinaireItalien']; ?>"" class="specialite_culinaire_logo">
-            <p><?php echo $data['description_pays']; ?></p>
-        </div>
-        <div class="plat_blockspecialite">
-            <span class="plat_specialitetitle"><?php echo $data['plat_specialitetitleItalien']; ?></span>
-            <span class="plat_difspec"><?php echo $data['plat_difspecItalien']; ?></span>
-        </div>
-
-
         <div class="plat_blockdifferents">
-
-
             <div class="plat_blockrecette">
-                <img src="images/italien/<?php echo $data['image_specialite_culinaireItalien']; ?>"" class="specialite_culinaire_image">
-                <span class="title_plat"><?php echo $data['title_platItalien']; ?></span>
-                <p class="plat_presentation"><?php echo $data['plat_presentationItalien']; ?></p>
+                <img src="images/italien/<?php echo $data['image_menu']; ?>"" class="specialite_culinaire_image">
+                <span class="title_plat"><?php echo $data['nom_menu']; ?></span>
+                <p class="plat_presentation"><?php echo $data['description_menu']; ?></p>
             </div>
         </div>
-
     <?php }
     ?>
 
