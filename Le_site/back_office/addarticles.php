@@ -21,9 +21,10 @@ if (isset($_REQUEST['nom_article'])){
     $lien = mysqli_real_escape_string($con,$lien);
     $description_article = stripslashes($_REQUEST['description_article']);
     $description_article = mysqli_real_escape_string($con,$description_article);
-    $image_article = stripslashes($_REQUEST['image_article']);
-    $image_article = mysqli_real_escape_string($con,$image_article);
+    $lien1="/images/image_article/";
+    $lien2=$_FILES['fichier']['name'];
 
+    $image_article=$lien1.$lien2;
 
 
     $annee = $_POST['annee'];
@@ -37,14 +38,51 @@ if (isset($_REQUEST['nom_article'])){
 
     $query = "INSERT into `articles` (nom_article, code_type_article, `date`, auteur, lien, description_article, image_article) VALUES ('$nom_article', '$code_type_article', '$date', '$auteur', '$lien', '$description_article', '$image_article')";
     $result = mysqli_query($con,$query);
+
+
+    $destination = 'files/'; // dossier où sera déplacé le fichier
+
+    $fichier = $_FILES['fichier']['tmp_name'];
+
+    if( !is_uploaded_file($fichier) )
+    {
+        exit("Veuiller selectionner une image");
+    }
+
+    // on vérifie maintenant l'extension
+    $type_fichier = $_FILES['fichier']['type'];
+
+    if( !strstr($type_fichier, 'jpg') && !strstr($type_fichier, 'jpeg') && !strstr($type_fichier, 'bmp') && !strstr($type_fichier, 'gif') )
+    {
+        exit("Ce n'est pas une image");
+    }
+
+    // on copie le fichier dans le dossier de destination
+    $nom_fichier = $_FILES['fichier']['name'];
+
+    if( !move_uploaded_file($fichier, $destination . $nom_fichier) )
+    {
+        exit("Impossible de sauvegarde dans $destination");
+    }
+
+    $result = mysqli_query($con,$query);
+    echo "Le fichier a bien été envoyé";
+
+
     if($result){
         echo "<div class='form'><h3>Ajout reussi.</h3><br/>Clique ici pour se <a href='index.php'>connecter</a></div>";
     }
 }else{
     ?>
+
+
+
+
+
+
     <div class="form">
         <h1>Ajout d'article</h1>
-        <form name="Ajout article" action="" method="post">
+        <form name="Ajout article" action="addarticles.php" enctype="multipart/form-data" method="post">
             <input type="text" name="nom_article" placeholder="Nom" required />
             <select name="code_type_article">
                 <option value="TYPART01">Communiqué</option>
@@ -223,7 +261,7 @@ if (isset($_REQUEST['nom_article'])){
             <input type="text" name="auteur" placeholder="Auteur" required />
             <input type="text" name="lien" placeholder="Lien du blog" required />
             <input type="text" name="description_article" placeholder="Description de l'article" required />
-            <input type="text" name="image_article" placeholder="Lien de l'image" required />
+            <input type="file" name="fichier" size="30">
             <input type="submit" name="submit" value="S'enregistrer" />
         </form>
     </div>

@@ -17,9 +17,6 @@
 <body>
     <?php include'header.html'; ?>
 
-
-
-
 <?php
 
 session_start();
@@ -35,12 +32,16 @@ catch (PDOException $e) {
     <?php
     $type_menu=$_GET['id'];
     $result=$bdd->query('SELECT * FROM menus NATURAL JOIN types_menu WHERE `code_type_menu`= '.$type_menu.' ');
-    $nom=$bdd->query('SELECT nom_type_menu FROM types_menu WHERE `code_type_menu`='.$type_menu.' '); ?>
-        <h1 class="titre_rouge"><?php while ($data2=$nom->fetch()){echo $data2['nom_type_menu']; } ?></h1>
-        <h2 class="titre_rouge">Spécialités:</h2>
-    <?php while ($data= $result->fetch()) { ?>
+    $nom=$bdd->query('SELECT * FROM types_menu WHERE `code_type_menu`='.$type_menu.' '); ?>
+        <?php while ($data2=$nom->fetch()){?>
+            <h1 class="titre_rouge"><?php echo $data2['nom_type_menu']; ?></h1>
+            <img src="<?php echo $data2['fond_type_menu'] ?>" class="fondmenu">
+        <div class="plat_blockpresentationglobal"><img src="<?php  echo $data2['logo_type_menu']?>"/><p><?php echo $data2['description_type_menu']?></p></div>
+        <div class="plat_blockspecialite"><h2 class="titre_rouge">Spécialités :</h2><p class="plat_difspec"><?php echo $data2['specialite_type_menu']?></p></div>
+        <?php };
+        while ($data= $result->fetch()) { ?>
         <div class="plat_blockrecette">
-            <img src="style_culinaire/images/<?php  echo $data['nom_type_menu']?>/<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
+            <img src="images/images_style_culinaire/<?php  echo $data['nom_type_menu']?>/<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
             <span class="title_plat"><?php echo $data['nom_menu']; ?></span>
             <p class="plat_presentation"><?php echo $data['description_menu']; ?></p>
         </div>
