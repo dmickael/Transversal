@@ -43,7 +43,6 @@ if (isset($_REQUEST['nom_article'])){
 
     $destination = '../images/image_article/'; // dossier où sera déplacé le fichier
 
-    $destination = 'files/'; // dossier où sera déplacé le fichier
 
 
     $fichier = $_FILES['fichier']['tmp_name'];
@@ -69,8 +68,6 @@ if (isset($_REQUEST['nom_article'])){
         exit("Impossible de sauvegarde dans $destination");
     }
 
-
-    $result = mysqli_query($con,$query);
     echo "Le fichier a bien été envoyé";
 
 
