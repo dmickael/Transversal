@@ -35,7 +35,8 @@ catch (PDOException $e) {
     <?php
     $type_menu=$_GET['id'];
     $result=$bdd->query('SELECT * FROM menus NATURAL JOIN types_menu WHERE `code_type_menu`= '.$type_menu.' ');
-    $nom=$bdd->query('SELECT nom_type_menu FROM types_menu WHERE `ode_type_menu`='.$type_menu.' ');?>
+    $nom=$bdd->query('SELECT nom_type_menu FROM types_menu WHERE `code_type_menu`='.$type_menu.' '); ?>
+        <h1 class="titre_rouge"><?php while ($data2=$nom->fetch()){echo $data2['nom_type_menu']; } ?></h1>
         <h2 class="titre_rouge">Spécialités:</h2>
     <?php while ($data= $result->fetch()) { ?>
         <div class="plat_blockrecette">
