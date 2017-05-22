@@ -1014,7 +1014,7 @@ html, .ba_section {
 /*   PAge 404 */
 
  {
-    background: #ccc;
+    background: white;
     font: bold 14px/20px "Trajan Pro", "Times New Roman", Times, serif;
     color: white;
     text-shadow: 0 1px 0
@@ -1029,7 +1029,7 @@ html, .ba_section {
 
 
 .erreur-page:before {
-    box-shadow: 0 0 200px 150px #fff;
+    box-shadow: 0 0 200px 150px white;
     width: 310px;
     height: 310px;
     border-radius: 50%;
