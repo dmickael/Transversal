@@ -8,10 +8,21 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 </head>
 <body>
+
 <?php include 'header.html'; ?>
 
-<p id="404"> 404 </p>
-<p id="page_inexistante"> page inexistante <span> :( </span> </p>
+<div class="erreur-page">
+    <article class="erreur-block">
+
+        <div>
+            <h1>404</h1>
+            <h2>oops! Page introuvable !</h2>
+        </div>
+
+        <a href="#" title="Back to site" class="erreur_retour">back</a>
+    </article>
+
+</div>
 
 <?php include 'footer.html'; ?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
