@@ -20,6 +20,10 @@ a:hover,a:active{outline: 0;}
 .texte_rouge{
     color: crimson;
 }
+h1{
+    text-align: center;
+    width: 100%;
+}
 h2{
     width: 100%;
     text-align: center;
