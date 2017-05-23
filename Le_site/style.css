@@ -137,7 +137,7 @@ footer ul{
 #localisation{
     align-self: center;
 }
-#localisation #map2{
+#localisation #map2, #map3, #map4, #map5, #map6, #map7, #map8, #map9{
     width: 250px;
     height: 160px;
     background-color: white;
@@ -676,102 +676,6 @@ h2{
     text-align: justify;
     font-family: ‘Dancing Script’, cursive;
 }
-
-
-/* Partie Maxime - Événements */
-.events{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.block_event{
-    width: 405px;
-    height: auto;
-    border: outset 3px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.event_image{
-    width: 400px;
-    height: 280px;
-}
-.event_title{
-    font-size: 20px;
-    font-family: ‘Dancing Script’, cursive;
-    font-weight: bold;
-    text-align: center;
-}
-.event_text{
-    font-size: 15px;
-    text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
-    padding: 20px;
-}
-.event_bouton{
-    width: 100px;
-    align-self: center;
-}
-.event_bouton  a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    background: crimson;
-    color: white;
-    text-decoration: none;
-    transition:all .3s linear;
-    font-family: ‘Dancing Script’, cursive;
-}
-.event_bouton a:hover {
-    background-color: white;
-    color: crimson;
-}
-/* Partie Maxime - Événement_détail */
-.event_detail {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.image_event {
-    width: 80%;
-}
-.title_event {
-    font-size: 20px;
-    font-family: ‘Dancing Script’, cursive;
-    font-weight: bold;
-    text-align: center;
-}
-.text_event {
-    font-size: 15px;
-    text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
-    padding: 20px;
-    width: 50%;
-}
-.event_contact_bouton{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-}
-.event_contact_bouton  a {
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
-    display: inline-block;
-    background: crimson;
-    color: white;
-    text-decoration: none;
-    transition:all .3s linear;
-    font-family: ‘Dancing Script’, cursive;
-}
-.event__contact_bouton a:hover {
-    background-color: white;
-    color: crimson;
-}
-
 /* BLOG & ACTU*/
 .actualite{
     display: flex;
@@ -905,12 +809,12 @@ html, .ba_section {
     transition: transform 0.3s, opacity 0.3s;
 }
 .ba_section div{
-     position: absolute;
-     top:0; left:0;
-     padding: 20px;
-     background: black ;
-     color: crimson ;
- }
+    position: absolute;
+    top:0; left:0;
+    padding: 20px;
+    background: black ;
+    color: crimson ;
+}
 .ba_section article img {
     max-width: 100%;
     display: block;
@@ -1107,7 +1011,145 @@ html, .ba_section {
 
 
 
+/*     LIEUX     */
+
+#map3, #map4, #map5, #map6, #map7, #map8, #map9{
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.block_jours_lieux{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    text-align: center;
+}
+
+.texte_lieux{
+    font-family: ‘Dancing Script’, cursive;
+}
+.texte_lieux h3{
+    font-size: 25px;
+    color: crimson;
+}
+.texte_lieux p{
+    font-size: 20px;
+}
+.block_jours_lieux a{
+    width:150px;
+    line-height:50px;
+    background:crimson;
+    color:white;
+}
+.block_jours_lieux a:hover{
+    color: crimson;
+    bottom: 220px;
+    width:150px;
+    line-height:50px;
+    background:white;
+}
+
+
 /*     --------------MARIE fin -----------------*/
+
+
+/* Partie Maxime - Événements */
+.events{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.block_event{
+    width: 405px;
+    height: auto;
+    border: outset 3px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.event_image{
+    width: 400px;
+    height: 280px;
+}
+.event_title{
+    font-size: 20px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    text-align: center;
+}
+.event_text{
+    font-size: 15px;
+    text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
+    padding: 20px;
+}
+.event_bouton{
+    width: 100px;
+    align-self: center;
+}
+
+.event_bouton  a {
+    border-radius: 50px;
+    background: crimson;
+    color: white;
+    font-family: ‘Dancing Script’, cursive;
+}
+
+.event_bouton a:hover {
+    background-color: white;
+    color: crimson;
+}
+
+
+/* Partie Maxime - Événement_détail */
+.event_detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.image_event {
+    width: 80%;
+}
+.title_event {
+    font-size: 20px;
+    font-family: ‘Dancing Script’, cursive;
+    font-weight: bold;
+    text-align: center;
+}
+.text_event {
+    font-size: 15px;
+    text-align: justify;
+    font-family: ‘Dancing Script’, cursive;
+    padding: 20px;
+    width: 50%;
+}
+.event_contact_bouton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+.event_contact_bouton  a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    transition:all .3s linear;
+    font-family: ‘Dancing Script’, cursive;
+}
+.event__contact_bouton a:hover {
+    background-color: white;
+    color: crimson;
+}
+
 
 /*---------------------------------------------------------------------------------- Responsiv-------------------------------------------------------------------------------------------*/
 
