@@ -158,10 +158,9 @@ footer ul{
     flex-direction: column;
     align-items: center;
 }
-#localisation #map2, #map3, #map4, #map5, #map6, #map7, #map8, #map9{
+#localisation #map2{
     width: 250px;
     height: 160px;
-    background-color: white;
     margin-bottom: 10px;
 }
 .svg_footer{
@@ -310,6 +309,7 @@ a{
 }
 .index_decouverte_monde_images p{
     width: 400px;
+    align-self: center;
 }
 #index_ils_adorent ul{
     display: flex;
@@ -757,13 +757,7 @@ h2{
     font-weight: bold;
     text-align: center;
 }
-.text_event {
-    font-size: 15px;
-    text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
-    padding: 20px;
-    width: 50%;
-}
+
 .event_contact_bouton{
     margin-left: auto;
     margin-right: auto;
@@ -1120,19 +1114,36 @@ html, .ba_section {
 
 
 /*     LIEUX     */
-
+#bloc_lieux{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
 #map3, #map4, #map5, #map6, #map7, #map8, #map9{
     width: 700px;
     height: 300px;
     background-color: white;
     margin-bottom: 10px;
 }
+#filter ul{
+    display: flex;
+    list-style: none;
+}
+#filter ul li{
+    margin: 5px;
+}
+a[href^='contact.php']{
+    padding: 1%;
+    border-radius: 50px;
+}
 .block_jours_lieux{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
     width: 700px;
+    align-items: center;
     text-align: center;
 }
 
@@ -1151,6 +1162,7 @@ html, .ba_section {
     line-height:50px;
     background:crimson;
     color:white;
+    padding: 2%;
 }
 .block_jours_lieux a:hover{
     color: crimson;
@@ -1231,7 +1243,7 @@ html, .ba_section {
     text-align: center;
 }
 .text_event {
-    font-size: 15px;
+    font-size: 1.2em;
     text-align: justify;
     font-family: 'Dancing Script', cursive;
     padding: 20px;

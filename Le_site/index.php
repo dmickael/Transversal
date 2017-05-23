@@ -59,9 +59,16 @@ catch (PDOException $e) {
             <h2 class="titre_rouge">Ou nous trouver?!</h2>
             <div id="index_carte_localisation">
                 <div id="map"></div>
-                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <?php $datetime = date("w");
+                $result=$bdd->query('SELECT * FROM lieux WHERE `jour`='.$datetime.' ');
+                if (isset($result)){
+                while ($lieu=$result->fetch()){?>
+                <div><h3 class="titre_rouge"><?php echo $lieu['nom_lieu']?></h3><p><?php echo $lieu['description_lieu']?></p></div><?php }}
+                else{
+
+                }?>
             </div>
-            <a class="texte_blanc fond_rouge" href="horaires.php">Plus....</a>
+            <a class="texte_blanc fond_rouge" href="lieux.php">Plus....</a>
         </div>
         <article id="index_equipe" class="fond_rouge">
             <h2 class="titre_blanc">Notre équipe</h2>

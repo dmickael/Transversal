@@ -31,17 +31,14 @@ catch (PDOException $e) {
     $result=$bdd->query('SELECT * FROM evenements WHERE code_evenement = $_SESSION[id]');
     ?>
 
-    <h1 id="title_events"><?p echo $data['nom_article'] ?></h1>
+    <h1 id="title_events"><? echo $data['nom_article'] ?></h1>
 
     <img src="images/actu_blog/<?php echo $data['image_article']; ?>"" class="article_image">
     <p class="article_text"><?php echo $data['description_article']; ?></p>
 
 </div>
-
-<footer>
     <?php include '../footer.html';
     ?>
-</footer>
 
 </body>
 

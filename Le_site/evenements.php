@@ -32,7 +32,7 @@
                         <div class="block_event">
                             <img src="<?php echo $data['image_evenement']; ?>" class="event_image">
                             <div class="block_titredesc">
-                                <h3 class="event_title"><?php echo ($data['nom_evenement']); ?></h3>
+                                <h3 class="event_title titre_rouge"><?php echo ($data['nom_evenement']); ?></h3>
                                 <p class="event_text"><?php echo ($data['description_evenement']); ?></p>
                             </div>
                             <div class="event_bouton"><p><a href="evenement_detail.php?id='<?php echo $data['code_evenement']?>'">Découvrir</a></p></div>

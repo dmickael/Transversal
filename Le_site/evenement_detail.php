@@ -23,7 +23,7 @@ catch (PDOException $e) {
     $result=$bdd->query('SELECT * FROM evenements WHERE `code_evenement`= '.$test.' ');
     while ($evenement=$result->fetch()){
         ?>
-        <h1 id="title_event"><?php echo $evenement['nom_evenement'] ?></h1>
+        <h1 class="titre_rouge" id="title_event"><?php echo $evenement['nom_evenement'] ?></h1>
         <img src="<?php echo $evenement['banniere_evenement']; ?>" class="image_event">
         <p class="text_event"><?php echo $evenement['description_evenement']; ?></p>
     <?php  } ?>

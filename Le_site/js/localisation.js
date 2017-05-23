@@ -96,20 +96,21 @@ function initMap() {
         map: map8,
         title: 'Beaulieu'
     });
-
-
-
-
-    var map9 = new google.maps.Map(document.getElementById('map9'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
-        zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
-    });
-
 };
+
+$(function () {
+    var selectedClass = "";
+    $(".cat").click(function () {
+        selectedClass = $(this).attr("data-rel");
+        $("#lescarte").fadeTo(100, 0.1);
+        $("#lescarte article").not("."+selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function () {
+            $("."+selectedClass).fadeIn().addClass('animation');
+            $('#lescarte').fadeTo(300,2);
+        }, 300);
+    });
+});
+
 google.maps.event.addDomListener(window,'load', initMap);
 
 
