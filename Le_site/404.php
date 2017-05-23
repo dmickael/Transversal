@@ -12,13 +12,15 @@
 <?php include 'header.html'; ?>
 
 <div class="erreur-page">
+
     <article class="erreur-block">
 
-        <div>
-            <h1>404</h1>
-            <h2>oops! Page introuvable !</h2>
+        <div class="erreur_text">
+            <span class="erreur404">404</span>
+            <br>
+            <span class="oops">oops! Page introuvable !</span>
         </div>
-
+        </br>
         <a href="#" title="Back to site" class="erreur_retour">back</a>
     </article>
 
