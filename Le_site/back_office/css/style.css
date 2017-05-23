@@ -21,7 +21,8 @@ a:hover {
 }
 
 select[name='jour']{
-    width: 50px;
+    margin-left: 8%;
+    width: 80px;
     border-radius: 2px;
     border: 1px solid #CCC;
     padding: 10px;
@@ -31,7 +32,7 @@ select[name='jour']{
 }
 
 select[name='annee']{
-    width: 76px;
+    width: 90px;
     border-radius: 2px;
     border: 1px solid #CCC;
     padding: 10px;
@@ -40,7 +41,7 @@ select[name='annee']{
     margin-top: 10px;
 }
 select[name='mois']{
-    width: 88px;
+    width: 90px;
     border-radius: 2px;
     border: 1px solid #CCC;
     padding: 10px;
@@ -50,8 +51,8 @@ select[name='mois']{
 }
 
 
-input[type='text'], input[type='email'], input[type='password'], input[type='tel'] {
-    width: 200px;
+input[type='text'], input[type='email'], input[type='password'], input[type='tel'], input[type='number'], input[type='file'], select {
+    width: 300px;
     border-radius: 2px;
     border: 1px solid #CCC;
     padding: 10px;
@@ -72,4 +73,8 @@ input[type='submit']{
     cursor:pointer;}
 input[type='submit']:hover {
     background-color: #024978;
+}
+
+select{
+    width: 320px;
 }

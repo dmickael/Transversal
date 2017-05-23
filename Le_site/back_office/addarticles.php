@@ -21,7 +21,11 @@ if (isset($_REQUEST['nom_article'])){
     $lien = mysqli_real_escape_string($con,$lien);
     $description_article = stripslashes($_REQUEST['description_article']);
     $description_article = mysqli_real_escape_string($con,$description_article);
-    $lien1="/images/image_article/";
+    $code_article1 = stripslashes($_REQUEST['code_article1']);
+    $code_article1 = mysqli_real_escape_string($con,$code_article1);
+
+    $code_article='arti_'.$code_article1;
+    $lien1="images/image_article/";
     $lien2=$_FILES['fichier']['name'];
 
     $image_article=$lien1.$lien2;
@@ -36,7 +40,7 @@ if (isset($_REQUEST['nom_article'])){
     $date = $_POST['annee'].'-'.$_POST['mois'].'-'.$_POST['jour'];
 
 
-    $query = "INSERT into `articles` (nom_article, code_type_article, `date`, auteur, lien, description_article, image_article) VALUES ('$nom_article', '$code_type_article', '$date', '$auteur', '$lien', '$description_article', '$image_article')";
+    $query = "INSERT into `articles` (code_article, nom_article, code_type_article, `date`, auteur, lien, description_article, image_article) VALUES ('$code_article','$nom_article', '$code_type_article', '$date', '$auteur', '$lien', '$description_article', '$image_article')";
     $result = mysqli_query($con,$query);
 
 
@@ -68,7 +72,7 @@ if (isset($_REQUEST['nom_article'])){
         exit("Impossible de sauvegarde dans $destination");
     }
 
-    echo "Le fichier a bien été envoyé";
+    echo "<div class='form'>Le fichier (image) a bien été envoyé</div>";
 
 
     if($result){
@@ -85,6 +89,7 @@ if (isset($_REQUEST['nom_article'])){
     <div class="form">
         <h1>Ajout d'article</h1>
         <form name="Ajout article" action="addarticles.php" enctype="multipart/form-data" method="post">
+            <input type="text" class="addmenu" name="code_article1" placeholder="Id de l'article (arti_XXX)" maxlength="3" required />
             <input type="text" name="nom_article" placeholder="Nom" required />
             <select name="code_type_article">
                 <option value="TYPART01">Communiqué</option>
@@ -264,9 +269,25 @@ if (isset($_REQUEST['nom_article'])){
             <input type="text" name="lien" placeholder="Lien du blog" required />
             <input type="text" name="description_article" placeholder="Description de l'article" required />
             <input type="file" name="fichier" size="30">
-            <input type="submit" name="submit" value="S'enregistrer" />
+            <input type="submit" name="submit" value="Ajouter" />
         </form>
     </div>
+    <br><br/>
+    <h2 style="text-align: center">Les articles déjà présent :</h2>
+    <div style="text-align: center"><?php
+        $sql = 'SELECT code_article, nom_article, description_article FROM articles';
+        // on lance la requête (mysql_query) et on impose un message d'erreur si la requête ne se passe pas bien (or die)
+        $req = mysqli_query($con,$sql) or die('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
+
+        // on va scanner tous
+        while ($data = mysqli_fetch_array($req)) {
+            // on affiche les résultats
+            echo 'Article :</br>';
+            echo 'code_article : '.$data['code_article'].'<br />';
+            echo 'nom_article : '.$data['nom_article'].'<br />';
+            echo 'description_article : '.$data['description_article'].'<br /><br />';
+        }
+        ?></div>
 <?php } ?>
 </body>
 </html>
