@@ -1055,12 +1055,10 @@ html, .ba_section {
     z-index: -1;
     content: '';
     display: block;
-    font: bold 14px/20px "Trajan Pro", "Times New Roman", Times, serif;
-    color: white;
-    text-shadow: 0 1px 0;
 }
 
 .erreur-block {
+    display: block;
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -1070,24 +1068,43 @@ html, .ba_section {
     background: crimson;
 }
 
-.erreur-block:before {
-    width: 63px;
-    height: 63px;
-    border-radius: 50%;
-    box-shadow: 3px 25px 0 5px crimson;
-    content: '';
-    z-index: -1;
-    display: block;
-    position: relative;
-    top: -19px;
-    left: 44px;
+
+.erreur404{
+    font: bold 14px/20px "Trajan Pro", "Times New Roman", Times, serif;
+    color: white;
+    font-size: 150px;
+    text-shadow: 0 1px 0;
 }
+.oops{
+    font: bold 14px/20px "Trajan Pro", "Times New Roman", Times, serif;
+    color: white;
+    text-shadow: 0 1px 0;
+}
+
+.erreur_text{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.erreur-block:before {
+     width: 63px;
+     height: 63px;
+     border-radius: 50%;
+     box-shadow: 3px 25px 0 5px crimson;
+     content: '';
+     z-index: -1;
+     display: block;
+     position: relative;
+     top: -19px;
+     left: 44px;
+ }
 
 .erreur-block:after {
     width: 310px;
     height: 17px;
     margin: 0 auto;
-    top: 25px;
+    top: 50px;
     content: '';
     z-index: -1;
     display: block;
