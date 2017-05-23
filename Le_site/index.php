@@ -37,11 +37,11 @@ catch (PDOException $e) {
             <h2 class="titre_rouge" id="ancre_decouverte_monde">A la découverte du monde</h2>
             <div class="index_decouverte_monde_images">
                 <img src="images/nourriture/salade-nicoise-pizza-casa.jpg" alt="">
-                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Pour satisfaire votre gourmandise et respecter au mieux les saisons, le menu change chaque semaine. Ainsi, chez A l’Equilibre, vous êtes assurés de manger uniquement des produits frais !</p>
             </div>
             <div class="index_decouverte_monde_images">
                 <img src="images/nourriture/wok.jpeg" alt="">
-                <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p> A l’Equilibre, c’est votre foodtruck  100% frais, 100% nantais, proposant des cuisines du mondes. A bord d’un camion équipé d’une cuisine professionnelle, nous élaborons des recettes originales en utilisant des produits frais, locaux et de saison.</p>
             </div>
             <a class="texte_blanc fond_rouge" href="style_culinaire.php">Découvrir!</a>
         </article>
