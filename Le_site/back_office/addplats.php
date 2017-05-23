@@ -23,7 +23,7 @@ if (isset($_REQUEST['nom_plat'])){
     $code_plat1 = mysqli_real_escape_string($con,$code_plat1);
 
     $code_plat='plat_'.$code_plat1;
-    $lien1="/images/image_plat/";
+    $lien1="images/image_plat/";
     $lien2=$_FILES['fichier']['name'];
 
     $image_plat=$lien1.$lien2;

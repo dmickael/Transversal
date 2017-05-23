@@ -25,7 +25,7 @@ if (isset($_REQUEST['nom_article'])){
     $code_article1 = mysqli_real_escape_string($con,$code_article1);
 
     $code_article='arti_'.$code_article1;
-    $lien1="/images/image_article/";
+    $lien1="images/image_article/";
     $lien2=$_FILES['fichier']['name'];
 
     $image_article=$lien1.$lien2;

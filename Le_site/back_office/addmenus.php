@@ -23,7 +23,7 @@ if (isset($_REQUEST['nom_menu'])){
     $code_menu1 = mysqli_real_escape_string($con,$code_menu1);
 
     $code_menu='menu_'.$code_menu1;
-    $lien1="/images/image_menu/";
+    $lien1="images/image_menu/";
     $lien2=$_FILES['fichier']['name'];
 
     $image_menu=$lien1.$lien2;
