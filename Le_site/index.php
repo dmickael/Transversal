@@ -26,7 +26,7 @@ catch (PDOException $e) {
 <body>
 <?php include('header.html'); ?>
     <section>
-        <h1 class="titre_blanc titre_caroussel">A l'equilibre</h1>
+        <h1 class="titre_blanc titre_caroussel">A l'équilibre</h1>
         <div id="index_carousselle" class="slider">
             <div><img src="images/image_caroussel/cuisinedumonde.jpg" alt="cuisine du monde" title="cuisinemonde"></div>
             <div><img src="images/image_caroussel/legume.jpg" title="legumefeu"  alt=""></div>
