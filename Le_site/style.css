@@ -722,18 +722,6 @@ h2{
     width: 400px;
     height: 280px;
 }
-.event_title{
-    font-size: 20px;
-    font-family: ‘Dancing Script’, cursive;
-    font-weight: bold;
-    text-align: center;
-}
-.event_text{
-    font-size: 15px;
-    text-align: justify;
-    font-family: 'Dancing Script', cursive;
-    padding: 20px;
-}
 .event_bouton{
     width: 100px;
     align-self: center;
@@ -1197,13 +1185,13 @@ html, .ba_section {
     height: 280px;
 }
 .event_title{
-    font-size: 20px;
+    font-size: 1.5em;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align: center;
 }
 .event_text{
-    font-size: 15px;
+    font-size: 1.2em;
     text-align: justify;
     font-family: 'Dancing Script', cursive;
     padding: 20px;
