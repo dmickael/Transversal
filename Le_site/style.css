@@ -239,8 +239,8 @@ img[title='cuisinemonde'],img[title='legumefeu'],img[title='fruitlegume'],img[ti
     line-height: 0;
 
     position: absolute;
-    top: 88%;
-    left:60%;
+    top: 88.5%;
+    left:55%;
 
     display: flex;
 
@@ -264,7 +264,7 @@ img[title='cuisinemonde'],img[title='legumefeu'],img[title='fruitlegume'],img[ti
     z-index: 1000;
     position: absolute;
     top: 85%;
-    left:40%;
+    left:42%;
     border-radius: 50px;
     display: flex;
 
