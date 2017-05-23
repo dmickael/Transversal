@@ -556,7 +556,7 @@ h2{
     z-index: 2;
     color: white;
     font-size: 30px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     text-transform:capitalize;
 }
 .sc_title span{
@@ -617,14 +617,15 @@ h2{
 }
 .plat_blockpresentationglobal p{
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
     max-width: 700px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
 }
 .plat_blockpresentationglobal p:first-letter {
     float: left;
     font-size: 50px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* presentation des spécialité */
@@ -636,8 +637,8 @@ h2{
     flex-wrap: wrap;
 }
 .plat_difspec{
-    font-size: 15px;
-    font-family: ‘Dancing Script’, cursive;
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
     width: 500px;
     margin-left: 2%;
 }
@@ -683,23 +684,22 @@ h2{
 }
 
 .title_plat{
-    font-size: 25px;
+    font-size: 20px;
     text-transform : capitalize;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 
 
 }
 .plat_presentation{
-    font-size: 15px;
+    font-size: 1.2em;
     text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .tarif{
     font-size: 15px;
     text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
-<<<<<<< HEAD
 
 
 /* Partie Maxime - Événements */
@@ -731,7 +731,7 @@ h2{
 .event_text{
     font-size: 15px;
     text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     padding: 20px;
 }
 .event_bouton{
@@ -746,7 +746,7 @@ h2{
     color: white;
     text-decoration: none;
     transition:all .3s linear;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .event_bouton a:hover {
     background-color: white;
@@ -790,7 +790,7 @@ h2{
     color: white;
     text-decoration: none;
     transition:all .3s linear;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .event__contact_bouton a:hover {
     background-color: white;
@@ -803,7 +803,7 @@ h2{
 }
 .ba_title{
     text-align: center;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 20px;
     font-weight: bold;
 }
@@ -823,7 +823,7 @@ h2{
 }
 .date_blog {
     font-size: 13px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align:left ;
     margin-left: 10px;
@@ -831,7 +831,7 @@ h2{
 
 .block_actualitetitle{
     font-size: 20px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align: center;
 
@@ -839,7 +839,7 @@ h2{
 .block_actualitetext{
     font-size: 15px;
     text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     padding: 20px;
 }
 .blog_bouton{
@@ -857,7 +857,7 @@ h2{
     color:white;
     text-decoration: none;
     transition:all .3s linear;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .blog_bouton a:hover {
     background-color: white;
@@ -973,17 +973,17 @@ html, .ba_section {
 }
 .style-1 div h3 {
     margin-top: 70px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 
 }
 .style-1 div span {
     display: block;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 
 }
 .style-1 div a {
     margin-top: 30px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 
 }
 .ba_section div.desc span:before {
@@ -1028,7 +1028,7 @@ html, .ba_section {
     text-align: justify;
     max-width: 250px;
     max-height: 300px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     display:none;
 
 
@@ -1149,7 +1149,7 @@ html, .ba_section {
 }
 
 .texte_lieux{
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .texte_lieux h3{
     font-size: 25px;
@@ -1198,14 +1198,14 @@ html, .ba_section {
 }
 .event_title{
     font-size: 20px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align: center;
 }
 .event_text{
     font-size: 15px;
     text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     padding: 20px;
 }
 .event_bouton{
@@ -1217,7 +1217,7 @@ html, .ba_section {
     border-radius: 50px;
     background: crimson;
     color: white;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 .event_bouton a:hover {
@@ -1238,14 +1238,14 @@ html, .ba_section {
 }
 .title_event {
     font-size: 20px;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align: center;
 }
 .text_event {
     font-size: 15px;
     text-align: justify;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
     padding: 20px;
     width: 50%;
 }
@@ -1263,7 +1263,7 @@ html, .ba_section {
     color: white;
     text-decoration: none;
     transition:all .3s linear;
-    font-family: ‘Dancing Script’, cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .event__contact_bouton a:hover {
     background-color: white;

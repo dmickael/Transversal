@@ -46,7 +46,7 @@ catch (PDOException $e) {
             <?php };
             while ($data= $result->fetch()) { ?>
             <div class="plat_blockrecette">
-                <img src="images/images_style_culinaire/<?php  echo $data['nom_type_menu']?>/<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
+                <img src="<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
                 <h3 class="title_plat titre_rouge"><?php echo $data['nom_menu']; ?></h3>
                 <p class="plat_presentation"><?php echo $data['description_menu']; ?></p>
             </div>
@@ -56,13 +56,13 @@ catch (PDOException $e) {
                 <h1 class="titre_blanc"><?php echo $data['nom_type_plat']; ?></h1>
                 <img src="<?php echo $data['fond_type_plat'] ?>" class="fondmenu">
             </div>
-            <div class="plat_blockpresentationglobal"><img src="<?php  echo $data['logo_type_plat']?>"/><p><?php echo $data['description_type_palt']?></p></div>
+            <div class="plat_blockpresentationglobal"><img src="<?php  echo $data['logo_type_plat']?>"/><p><?php echo $data['description_type_plat']?></p></div>
             <div class="plat_blockspecialite"><h2 class="titre_rouge">Spécialités :</h2><p class="plat_difspec"><?php echo $data['specialite_type_plat']?></p></div>
             <div id="block_fullrecette">
                 <?php };
             while ($data= $result2->fetch()) { ?>
                 <div class="plat_blockrecette">
-                    <img src="images/images_style_culinaire/<?php  echo $data['nom_type_plat']?>/<?php echo $data['image_plat']; ?>"  class="specialite_culinaire_image">
+                    <img src="<?php echo $data['image_plat']; ?>"  class="specialite_culinaire_image">
                     <h3 class="title_plat titre_rouge"><?php echo $data['nom_plat']; ?></h3>
                     <p class="plat_presentation"><?php echo $data['description_plat']; ?></p>
                 </div>
