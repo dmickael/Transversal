@@ -1,4 +1,3 @@
-
 if (window.innerWidth<1000) {
     $(".cross").hide();
     $("nav").hide();
@@ -26,8 +25,15 @@ $(function () {
             $(".cross").hide();
             $("nav").hide();
             $(".hamburger").show();
-            $(".hamburger").click(function(){});
-            $(".cross").click(function (){});
+            $(".hamburger").click(function(){
+                $("nav").slideToggle()
+                $(".titre_caroussel").addClass('move');
+                $(".titre_caroussel").removeClass('titre_caroussel');
+            });
+            $(".cross").click(function (){
+                $(".move").addClass('titre_caroussel');
+                $(".move").removeClass('move');
+            });
         }
         else{$("nav").show();}
     });

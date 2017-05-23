@@ -4,6 +4,7 @@
 $(document).ready(function(){
     $('header').addClass('invisible');
     $('.slider').slick({
+        dots:true,
         touchMove:false,
         mobileFirst:true,
         autoplay:true,
@@ -26,6 +27,25 @@ if (largeur_fenetre > 1000) {
 else{
     $('header').removeClass('invisible')
 }
+$('a[href^="#"]').addClass('invisible');
+$('a[href^="#"]').click(function(){
+    var the_id = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop:$(the_id).offset().top
+    }, 'slow');
+});
+$(window).scroll(function () {
+    var fleche = $('a[href^="#"]'),
+        scroll = $(window).scrollTop();
+    if (scroll > 700) fleche.removeClass('invisible')
+    else fleche.addClass('invisible');
+});
+$(window).scroll(function(){
+    var sticky = $('#boutonvershaut'),
+        scroll = $(window).scrollTop();
+    if (scroll>=300) sticky.addClass('visible');
+    else sticky.removeClass('visible');
+});
 function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         mapTypeId: google.maps.MapTypeId.satelite,

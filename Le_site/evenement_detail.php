@@ -24,7 +24,7 @@ catch (PDOException $e) {
     while ($evenement=$result->fetch()){
         ?>
         <h1 id="title_event"><?php echo $evenement['nom_evenement'] ?></h1>
-        <img src="<?php echo $evenement['image_evenement']; ?>" class="image_event">
+        <img src="<?php echo $evenement['banniere_evenement']; ?>" class="image_event">
         <p class="text_event"><?php echo $evenement['description_evenement']; ?></p>
     <?php  } ?>
 </div>

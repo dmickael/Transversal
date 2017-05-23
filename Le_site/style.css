@@ -94,6 +94,18 @@ header li{
     font-family: 'Dancing Script';
     font-size: 1.5em;
 }
+#svgretour_haut{
+    width: 40px;
+    height: 40px;
+    /*display:none;*/
+    position: fixed;
+    top:90%;
+    right: 5%;
+    display: flex;
+    fill: white;
+    stroke: black;
+    z-index: 10;
+}
 img[title="logo"]{
     width: 170px;
     height: 80px;
@@ -117,6 +129,7 @@ footer ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 500px;
 }
 #horaires{
     display: flex;
@@ -133,9 +146,17 @@ footer ul{
 }
 #site_map{
     align-self: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #localisation{
     align-self: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #localisation #map2{
     width: 250px;
@@ -495,7 +516,9 @@ h2{
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
 }
-
+.line_rouge{
+    border-top: crimson 2px solid ;
+}
 .sc_title{
     color: white;
     background-color: crimson;
@@ -737,6 +760,7 @@ h2{
 }
 .image_event {
     width: 80%;
+    height: 200px;
 }
 .title_event {
     font-size: 20px;
@@ -1120,7 +1144,9 @@ html, .ba_section {
     .titre_caroussel{top:80px;text-shadow: none}
     #buttonarrownext{width: 30px;height: 30px;top:245px}
     #buttonarrowprev{width: 30px;height: 30px;top:230px}
-    #contact_horaire{align-items: flex-end}
+    #contact_horaire{align-items: flex-end;width: auto;}
+    #localisation{width: auto}
+    #site_map{width: auto}
     #horaires p{width: 160px}.invisible{opacity: 1;position: relative;z-index: 1600}
     header button{visibility: visible}
     header nav{z-index:16000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:relative; text-align:center; font-size:12px;}

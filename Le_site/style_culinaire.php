@@ -35,6 +35,7 @@
     <div class="sc_blocpays">
     <?php
     $result=$bdd->query('SELECT * FROM types_menu ORDER BY code_type_menu');
+    $result2=$bdd->query('SELECT * FROM types_plat ORDER BY code_type_plat');
     while ($data= $result->fetch()) {
         ?>
         <div class="sc_pays">
@@ -46,9 +47,23 @@
             </a>
         </div>
 
+    <?php } ?>
+    <hr>
+        <?php
+     while ($data= $result2->fetch()) {
+        ?>
+        <div class="sc_pays">
+            <a href="cullinaire_detail.php?id='<?php echo $data['code_type_plat']?>'">
+                <div class="sc_blocktitle">
+                    <span class="sc_paystitle"><?php echo $data['nom_type_plat']; ?></span>
+                </div>
+                <img class="sc_imgpays" src="<?php echo $data['image_type_plat']; ?>"" class="specialite_culinaire_image">
+            </a>
+        </div>
+
     <?php }
     ?>
-    </div>
+    </>
 
     <?php
     include ("footer.html");

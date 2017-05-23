@@ -83,6 +83,7 @@ catch (PDOException $e) {
             <a class="texte_rouge" href="equipe.php">Plus d'infos....</a>
         </article>
     </section>
+    <a href="#index_decouverte_monde"><svg id="svgretour_haut" title="retour vers le haut" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><g><polygon points="49.918,5 20.898,28.971 20.898,46.415 49.918,22.446 79.102,46.415 79.102,28.971  "/><polygon points="20.898,57.179 20.898,74.616 34.429,63.533 34.429,95 65.406,95 65.406,63.533 79.102,74.616 79.102,57.179    49.918,33.208  "/></g></svg></a>
     <?php include('footer.html') ?>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
