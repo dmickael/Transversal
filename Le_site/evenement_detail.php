@@ -3,12 +3,12 @@
     <title>Emplacements fixes et ÈvÈnements pour foodtruck | A l'Equilibre</title>
     <meta name="description" content="Foodtrucks, rejoignez notre rÈseau et bÈnÈficiez de nos services d'emplacements fixes et ÈvÈnementiels. Avec nous, boostez votre chiffre d'amitiÈ."/>
     <meta charset="utf-8"/>
-    <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="stylemin.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 </head>
 <body>
-    <?php include('../header.html');
+    <?php include('header.html');
     ?>
 <?php
 session_start();
@@ -26,14 +26,14 @@ catch (PDOException $e) {
     while ($evenement=$result->fetch()){
         ?>
         <h1 class="titre_rouge title_event"><?php echo $evenement['nom_evenement'] ?></h1>
-        <img src="../<?php echo $evenement['banniere_evenement']; ?>" class="image_event">
+        <img src="<?php echo $evenement['banniere_evenement']; ?>" class="image_event">
         <p class="text_event"><?php echo $evenement['description_evenement']; ?></p>
     <?php  } ?>
 </div>
 <div class="event_contact_bouton"><p><a href="contact.php">Nous contacter</a></p></div>
-<?php include ('../footer.html');
+<?php include('footer.html');
 ?>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="../js/headermin.js"></script>
+<script src="js/headermin.js"></script>
 </body>
 </html>

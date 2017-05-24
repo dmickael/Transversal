@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../stylemin.css">
-    <link rel="icon" type="image/png" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="stylemin.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 </head>
 <body>
-    <?php include '../header.html'; ?>
+    <?php include 'header.html'; ?>
 
 <section>
     <div class="bloc_gmail">
@@ -46,8 +46,8 @@
         $msg=$zonetext.'<br><br>'.'<p>Société : '.$societe.'</p>'.'<p>E-mail : '.$from.'</p>'.'<p>Téléphone : '.$phone.'</p>';
 
 
-        require('../phpmailer/class.phpmailer.php');
-        require('../phpmailer/class.smtp.php');
+        require('phpmailer/class.phpmailer.php');
+        require('phpmailer/class.smtp.php');
 
         $mail = new PHPMailer();
         $mail->IsSMTP();
@@ -72,7 +72,7 @@
             echo "<p class='contact_gmail'>Redirection dans 5 secondes</p>";
             header("refresh:5;url=index.php");
         }else{
-            echo "<img class='contact_img' src='../images/merci.png'><br>";
+            echo "<img class='contact_img' src='images/merci.png'><br>";
             echo "<p class='contact_gmail'>redirection dans 5 secondes</p>";
             header("refresh:5;url=index.php");
 
@@ -81,9 +81,9 @@
         ?>
     </div>
 </section>
-    <?php include '../footer.html'; ?>
+    <?php include 'footer.html'; ?>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="../js/headermin.js"></script>
+    <script src="js/headermin.js"></script>
 </body>
 </html>
 

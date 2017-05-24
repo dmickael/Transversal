@@ -5,12 +5,12 @@
     <title> Nos localisations | A l'Equilibre</title>
     <meta name="O˘ nous trouver ?" content="Un problËme pour nous localiser ? Vous pourrez trouver toutes les informations qui vous intÈressent ici."/>
     <meta charset="utf-8"/>
-    <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="stylemin.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 </head>
 <body>
-<?php include('../header.html');
+<?php include('header.html');
 
 
 Try {
@@ -71,11 +71,11 @@ catch (PDOException $e) {
     </div>
 
 </div>
-<?php include('../footer.html') ?>
+<?php include('footer.html') ?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="../js/headermin.js"></script>
-<script src="../js/localisationmin.js"></script>
+<script src="js/headermin.js"></script>
+<script src="js/localisationmin.js"></script>
 </body>
 
 </html>
