@@ -1,93 +1,87 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
   <url>
-    <loc>localhost</loc>
+    <loc>index.php</loc>
     <lastmod>2017-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>localhost/blog.html</loc>
+    <loc>header.html</loc>
+    <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>footer.html</loc>
+    <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>blog.php</loc>
     <lastmod>2017-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/contact.html</loc>
+    <loc>blog_detail.php</loc>
     <lastmod>2017-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/evenement.html</loc>
+    <loc>contact.php</loc>
     <lastmod>2017-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire.html</loc>
+    <loc>culinaire_detail.php</loc>
     <lastmod>2017-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/argentin.html</loc>
+    <loc>equipe.php</loc>
     <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/burger.html</loc>
+    <loc>evenement.php</loc>
     <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/coktail.html</loc>
+    <loc>evenement_detail.php</loc>
     <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/crepe.html</loc>
+    <loc>404.php</loc>
     <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/gateau.html</loc>
+    <loc>gmail.php</loc>
     <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/glace.html</loc>
+    <loc>lieux.php</loc>
     <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>localhost/style_culinaire/grec.html</loc>
+    <loc>style_culinaire.php</loc>
     <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/indien.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/italien.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/japonais.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/libanais.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/pate.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/pizza.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/wok.html</loc>
-    <lastmod>2017-05-16</lastmod>
-  </url>
-  <url>
-    <loc>localhost/style_culinaire/wrap.html</loc>
-    <lastmod>2017-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
