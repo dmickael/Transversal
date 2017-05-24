@@ -92,7 +92,7 @@ header ul{
 header li{
     margin: 2%;
     font-family: 'Dancing Script';
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 #svgretour_haut{
     width: 40px;
@@ -108,11 +108,12 @@ header li{
 }
 img[title="logo"]{
     width: 170px;
-    height: 80px;
+    height: 90px;
     margin-left: 5%;
 }
 /* Footer*/
 footer{
+    width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -258,6 +259,9 @@ img[title='cuisinemonde'],img[title='legumefeu'],img[title='fruitlegume'],img[ti
     outline: none;
     background: transparent;
 }
+/* transition bouton */
+
+/*//////////////////////////////////////////////////////////////////////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////*/
 #buttonarrowprev{
     font-size: 0;
     line-height: 0;
@@ -291,6 +295,12 @@ img[title='cuisinemonde'],img[title='legumefeu'],img[title='fruitlegume'],img[ti
 }
 a{
     align-self: center;
+    font-family: 'Dancing Script';
+    font-size: 1.2em;
+}
+a:hover{
+    background-color: transparent;
+    color: crimson;
 }
 #index_decouverte_monde a{
     padding: 5px;
@@ -343,7 +353,11 @@ a{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-#index_carte_localisation p{
+#repas{
+    display: flex;
+    justify-content: space-around;
+}
+#lieuparagraphe{
     width: 400px;
 }
 #index_nous_trouver a{
@@ -411,6 +425,11 @@ a{
     margin-bottom: 1%;
     padding: 5px;}
 
+#index_equipe a:hover{
+    color:white ;
+    background-color: crimson;
+}
+
 /* page equipe */
 
 #equipe_detail{
@@ -424,7 +443,7 @@ a{
 .flip-container2:hover .flipper2, .flip-container2.hover .flipper2 {transform: rotateY(180deg);}
 
 /* Définition de la hauteur / largeur de la carte (toute la carte, puis chaque côté) */
-.flip-container2, .front2, .back2 {width: 300px;height: 400px;}
+.flip-container2, .front2, .back2 {width: 300px;height:550px;}
 
 /* Vitesse de l'animation */
 .flipper2 {transition: 1s;transform-style: preserve-3d;position: relative;}
@@ -438,10 +457,11 @@ a{
     transform: rotateY(0deg);
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .front2 img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50px;
     align-self: center;
 }
@@ -483,12 +503,18 @@ a{
 }
 .btn_envoyer{
     padding:6px 0 6px 0;
-    font:bold 13px Arial;
-    background:#478bf9;
-    color:#fff;
+    font:bold 13px 'Dancing Script';
+    background:crimson;
+    color:white;
     border-radius:2px;
     width:100px;
     border:none;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+.btn_envoyer:hover{
+    background-color: transparent;
+    color: crimson;
 }
 .contact_gmail{
     text-align: center;
@@ -656,14 +682,17 @@ h2{
 .plat_blockdifferentstitreimg h1{
     font-size: 5em;
     z-index: 10;
+    width: 100%;
+    text-align: center;
 }
 .plat_blockdifferentstitreimg img{
     width: 100%;
     height: 400px;
     opacity: 0.5;
-    position: absolute;
-    top: 11.6%;
+    position: relative;
+    top: 0;
     z-index: 0;
+    left: -100%;
 }
 .plat_blockrecette{
     display: flex;
@@ -779,10 +808,26 @@ h2{
     color: crimson;
 }
 /* BLOG & ACTU*/
-.actualite{
+#actualite{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+#blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+}
+.auteurdate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    font-family: "Dancing Script";
+}
+
 .ba_title{
     text-align: center;
     font-family: 'Dancing Script', cursive;
@@ -792,12 +837,9 @@ h2{
 /*     ACTU       */
 .block_actualite{
     width: 405px;
-    height: 600px;
-    display: inline-table;
+    display: flex;
     border: outset 3px;
-    margin: 20px;
-
-
+    flex-direction: column;
 }
 .block_actualite img{
     width: 400px;
@@ -1152,6 +1194,17 @@ html, .ba_section {
 #filter ul li{
     margin: 5px;
 }
+.cat{
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    font-family: 'Dancing Script';
+    font-size: 1.2em;
+}
+.cat:hover{
+    background-color: transparent;
+    color: crimson;
+}
 a[href^='contact.php']{
     padding: 1%;
     border-radius: 50px;
@@ -1254,13 +1307,16 @@ a[href^='contact.php']{
     width: 80%;
 }
 .title_event {
-    font-size: 20px;
+    font-size: 2em;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align: center;
 }
+.image_article{
+    width: 400px;
+}
 .text_event {
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: justify;
     font-family: 'Dancing Script', cursive;
     padding: 20px;

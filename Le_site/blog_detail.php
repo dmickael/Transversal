@@ -12,6 +12,7 @@
         <meta name="description" content="Foodtruck, vous souhaitez savoir ce que l'on peut faire pour vous pour cet événement ? Alors nous allons vous apporter toutes les réponses à vos questions."/> <meta charset="utf-8"/>
         <link href="style.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/favicon.ico" />
     </head>
 
     <body>
@@ -36,9 +37,9 @@
 
             <?php
             $article=$_GET['id'];
-            $result=$bdd->query('SELECT * FROM actualites WHERE `code_article`= '.$article.' ');
+            echo $article;
+            $result=$bdd->query('SELECT * FROM articles WHERE `code_article`= '.$article.' ');
             while ($blog=$result->fetch()){
-
                 ?>
                 <h1 id=""><?php echo $blog['nom_article'] ?></h1>
                 <img src="<?php echo $blog['image_article']; ?>" class="">

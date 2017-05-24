@@ -7,6 +7,7 @@
     <meta charset="utf-8"/>
     <link href="style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 </head>
 <body>
 <?php include('header.html');
@@ -27,21 +28,21 @@ catch (PDOException $e) {
 <div id="bloc_lieux">
     <div id="filter">
         <ul>
-            <li><button class="cat" data-rel="all">Toute la semaine</button></li>
-            <li><button class="cat" data-rel="lundi">Lundi</button></li>
-            <li><button class="cat" data-rel="mardi">Mardi</button></li>
-            <li><button class="cat" data-rel="mercredi">Mercredi</button></li>
-            <li><button class="cat" data-rel="jeudi">Jeudi</button></li>
-            <li><button class="cat" data-rel="vendredi">Vendredi</button></li>
-            <li><button class="cat" data-rel="samedi">Samedi</button></li>
-            <li><button class="cat" data-rel="dimanche">Dimanche</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="all">Toute la semaine</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="lundi">Lundi</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="mardi">Mardi</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="mercredi">Mercredi</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="jeudi">Jeudi</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="vendredi">Vendredi</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="samedi">Samedi</button></li>
+            <li><button class="cat texte_blanc fond_rouge" data-rel="dimanche">Dimanche</button></li>
         </ul>
     </div>
     <div id="lescarte">
     <?php
     $result=$bdd->query('SELECT * FROM lieux');
     while ($data=$result->fetch()){
-        switch ($data['jour']){
+        switch ($data['jour_lieu']){
             case 1: $jour = 'Lundi';break;
             case 2: $jour = 'Mardi';break;
             case 3: $jour = 'Mercredi';break;
@@ -57,7 +58,7 @@ catch (PDOException $e) {
                 <p class="horaire_text"> 11h 30 / 14h 00   et   18h 30 / 21h 30</p>
                 <p class="description_lieux"><?php echo $data['description_lieu']; ?></p>
             </div>
-            <div id="map<?php echo $data['jour']+2?>"></div>
+            <div id="map<?php echo $data['jour_lieu']+2?>"></div>
         </article>
         <?php } ?>
         <article class="block_jours_lieux all dimanche">
@@ -66,7 +67,6 @@ catch (PDOException $e) {
                 <p class="nom_lieux">Disponible pour tous vos évênements sur Nantes!!</p>
                 <h4 class="titre_rouge">Pour plus d'infos: </h4><a href="contact.php">Contactez-Nous!!</a>
             </div>
-            <div id="map<?php echo $data['jour']+2 ?>"></div>
         </article>
     </div>
 
@@ -74,10 +74,8 @@ catch (PDOException $e) {
 <?php include('footer.html') ?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="js/footer.js"></script>
 <script src="js/header.js"></script>
 <script src="js/localisation.js"></script>
-
 </body>
 
 </html>

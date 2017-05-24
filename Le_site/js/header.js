@@ -25,6 +25,7 @@ $(function () {
         if (window.innerWidth < 1000) {
             $("nav").hide();
             $(".cross").hide();
+            $(".hamburger").show();
         }
         else{$("nav").show();}
     });

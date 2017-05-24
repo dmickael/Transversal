@@ -22,6 +22,7 @@ catch (PDOException $e) {
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 </head>
 <body>
 <?php include('header.html'); ?>
@@ -43,10 +44,10 @@ catch (PDOException $e) {
                 <img src="images/nourriture/wok.jpeg" alt="">
                 <p> A l’Equilibre, c’est votre foodtruck  100% frais, 100% nantais, proposant des cuisines du mondes. A bord d’un camion équipé d’une cuisine professionnelle, nous élaborons des recettes originales en utilisant des produits frais, locaux et de saison.</p>
             </div>
-            <a class="texte_blanc fond_rouge" href="style_culinaire.php">Découvrir!</a>
+            <a class="btn-3 texte_blanc fond_rouge" href="style_culinaire.php">Découvrir!</a>
         </article>
         <div id="index_ils_adorent" class="fond_rouge">
-            <h2 class="titre_blanc ">Ils nous font confiance</h2>
+            <h2 class="titre_blanc ">Nos partenaires</h2>
             <ul>
                 <li><img src="images/logo_entreprise/Logo_Nantes.png" alt="logo "></li>
                 <li><img src="images/logo_entreprise/Logo_Semitan.png" alt="logo "></li>
@@ -60,13 +61,18 @@ catch (PDOException $e) {
             <div id="index_carte_localisation">
                 <div id="map"></div>
                 <?php $datetime = date("w");
-                $result=$bdd->query('SELECT * FROM lieux WHERE `jour`='.$datetime.' ');
+                $result=$bdd->query('SELECT * FROM lieux WHERE `jour_lieu`='.$datetime.' ');
                 if (isset($result)){
                 while ($lieu=$result->fetch()){?>
-                <div><h3 class="titre_rouge"><?php echo $lieu['nom_lieu']?></h3><p><?php echo $lieu['description_lieu']?></p></div><?php }}
+                <div><h3 class="titre_rouge"><?php echo $lieu['nom_lieu']?></h3><p id="lieuparagraphe"><?php echo $lieu['description_lieu']?></p><?php }}
                 else{
-
-                }?>
+                }
+                $result=$bdd->query('SELECT nom_type_menu FROM types_menu ORDER BY RAND( ) LIMIT 4')?>
+                <h3 class="titre_rouge">Aujourd'hui nous vous proposons : </h3>
+                    <div id="repas"><?php while ($repas=$result->fetch()){ ?>
+                    <p><?php echo $repas['nom_type_menu'] ?></p>
+                        <?php } ?></div>
+                </div>
             </div>
             <a class="texte_blanc fond_rouge" href="lieux.php">Plus....</a>
         </div>
@@ -95,7 +101,6 @@ catch (PDOException $e) {
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="js/footer.js"></script>
     <script src="js/header.js"></script>
     <script src="js/accueil.js"></script>
 </body>
