@@ -3,7 +3,7 @@
 <head>
     <title>Article détailé | A l'Équilibre</title>
     <meta name="description" content="Foodtruck, vous souhaitez savoir ce que l'on a deja proposé ? Alors nous allons vous apporter toutes les réponses à vos questions."/> <meta charset="utf-8"/>
-    <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
@@ -39,6 +39,6 @@ catch (PDOException $e) {
     <?php include '../footer.html';
     ?>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="../js/header.js"></script>
+    <script src="../js/headermin.js"></script>
 </body>
 

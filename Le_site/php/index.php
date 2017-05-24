@@ -101,7 +101,7 @@ catch (PDOException $e) {
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../slick/slick.min.js"></script>
-    <script src="../js/header.js"></script>
-    <script src="../js/accueil.js"></script>
+    <script src="../js/headermin.js"></script>
+    <script src="../js/accueilmin.js"></script>
 </body>
 </html>

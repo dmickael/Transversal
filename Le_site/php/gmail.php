@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../stylemin.css">
     <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
 <body>
@@ -83,8 +83,7 @@
 </section>
     <?php include '../footer.html'; ?>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/header.js"></script>
-    <script src="js/localisation.js"></script>
+    <script src="../js/headermin.js"></script>
 </body>
 </html>
 

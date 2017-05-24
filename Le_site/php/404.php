@@ -2,15 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../stylemin.css">
     <title>Contactez-nous | A l'équilibre</title>
     <meta name="description" content="Vous souhaitez privatiser un foodtruck, un foodbike ou un stand mobile ? Contactez-nous et faites-nous part de nos envies, même les plus folles !"/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
 <body>
 
-<?php include 'header.html'; ?>
+<?php include '../header.html'; ?>
 
 <div class="erreur-page">
 
@@ -27,10 +27,8 @@
 
 </div>
 
-<?php include 'footer.html'; ?>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
+<?php include '../footer.html'; ?>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="js/header.js"></script>
+<script src="../js/headermin.js"></script>
 </body>
 </html>
-

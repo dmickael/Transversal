@@ -5,7 +5,7 @@
     <title>Événements | A l'Équilibre</title>
     <meta name="description" content="Foodtruck, rejoignez notre réseau et bénéficiez de nos services événementiels. Avec nous, boostez votre chiffre d’amitié."/>
     <meta charset="utf-8"/>
-    <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
@@ -74,8 +74,8 @@ catch (PDOException $e) {
 <?php include('../footer.html') ?>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="../js/header.js"></script>
-<script src="../js/localisation.js"></script>
+<script src="../js/headermin.js"></script>
+<script src="../js/localisationmin.js"></script>
 </body>
 
 </html>
