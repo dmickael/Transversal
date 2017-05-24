@@ -4,13 +4,13 @@
         <title>Blog | A l'Èquilibre</title>
         <meta name="description" content="Plus de 10 styles culinaires disponibles ‡ la privatisation parmi notre rÈseau de traiteurs Nantais."/>
         <meta charset="utf-8"/>
-        <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-        <link rel="icon" type="image/png" href="images/favicon.ico" />
+        <link rel="icon" type="image/png" href="../images/favicon.ico" />
     </head>
     <body>
             <?php
-            include("header.html");
+            include("../header.html");
             ?>
         <?php
 
@@ -36,7 +36,7 @@
             $result=$bdd->query('SELECT * FROM articles WHERE `code_type_article`="TYPART01" ');
             while ($data= $result->fetch()) {?>
                 <div class="block_actualite">
-                    <img src="<?php echo $data['image_article']; ?>" class="blog_image">
+                    <img src="../<?php echo $data['image_article']; ?>" class="blog_image">
                     <p class="block_actualitetitle"><?php echo $data['nom_article']; ?></p>
                     <p class="block_actualitetext"><?php echo substr($data['description_article'],0,200); ?>[...]</p>
                     <div class="auteurdate"><p class="date_blog"><?php echo $data['date']; ?></p>
@@ -57,7 +57,7 @@
             $result=$bdd->query('SELECT * FROM articles WHERE `code_type_article`!="TYPART01"');
             while ($data= $result->fetch()) {?>
                 <div class="block_actualite">
-                    <img src="<?php echo $data['image_article']; ?>" class="blog_image">
+                    <img src="../<?php echo $data['image_article']; ?>" class="blog_image">
                     <p class="block_actualitetitle"><?php echo $data['nom_article']; ?></p>
                     <div class="auteurdate"><p class="auteur_blog"><?php echo $data['auteur']; ?></p></div>
                     <div class="blog_bouton">
@@ -71,10 +71,9 @@
         </div>
 
             <?php
-            include ("footer.html");
+            include ("../footer.html");
             ?>
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
         <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="js/header.js"></script>
+        <script src="../js/header.js"></script>
     </body>
 </html>

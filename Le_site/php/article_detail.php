@@ -3,13 +3,13 @@
 <head>
     <title>Article détailé | A l'Équilibre</title>
     <meta name="description" content="Foodtruck, vous souhaitez savoir ce que l'on a deja proposé ? Alors nous allons vous apporter toutes les réponses à vos questions."/> <meta charset="utf-8"/>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
 
 <body>
-    <?php include'header.html';
+    <?php include'../header.html';
     ?>
 
 <?php
@@ -32,12 +32,13 @@ catch (PDOException $e) {
     while ($blog=$result->fetch()){
         ?>
         <h1 class="titre_rouge title_event"><?php echo $blog['nom_article'] ?></h1>
-        <img src="<?php echo $blog['image_article']; ?>" class="image_article">
+        <img src="../<?php echo $blog['image_article']; ?>" class="image_article">
         <p class="text_event"><?php echo $blog['description_article']; ?></p>
     <?php  } ?>
 </div>
-    <?php include 'footer.html';
+    <?php include '../footer.html';
     ?>
-
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="../js/header.js"></script>
 </body>
 
