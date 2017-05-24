@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../stylemin.css">
-    <title>Contactez-nous | A l'équilibre</title>
+    <title>Contactez-nous | A l'Equilibre</title>
     <meta name="Contacter notre Èquipe aux petits oignons" content="Vous souhaitez privatiser un foodtruck, un foodbike ou un stand mobile ? Contactez-nous et faites-nous part de vos envies, mÍme les plus folles !"/>
     <meta charset="utf-8"/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">

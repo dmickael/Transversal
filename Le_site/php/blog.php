@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        title>Blog et articles | A l'…quilibre</title>
+        title>Blog et articles | A l'Equilibre</title>
         <meta name="Nos actualitÈs et nos bloggueurs/bloggueuses favoris" content="Blog A l'…quilibre : actualitÈ, guides pratiques et conseils. La nouvelle alternative qui remplace le restaurant."/>
         <meta charset="utf-8"/>
         <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />

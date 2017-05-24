@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Emplacements fixes et ÈvÈnements pour foodtruck | A l'…quilibre</title>
+    <title>Emplacements fixes et ÈvÈnements pour foodtruck | A l'Equilibre</title>
     <meta name="description" content="Foodtrucks, rejoignez notre rÈseau et bÈnÈficiez de nos services d'emplacements fixes et ÈvÈnementiels. Avec nous, boostez votre chiffre d'amitiÈ."/>
     <meta charset="utf-8"/>
     <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />

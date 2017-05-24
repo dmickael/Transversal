@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Styles culinaires | A l'…quilibre</title>
+    <title>Styles culinaires | A l'Equilibre</title>
     <meta name="Nos specialitÈs"  content="Plus de 10 styles culinaires disponibles ‡ la privatisation parmi notre rÈseau de traiteurs Nantais."/>
     <meta charset="utf-8"/>
     <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />

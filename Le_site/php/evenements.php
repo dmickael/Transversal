@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>…vÈnements | A l'…quilibre</title>
+        <title>…vÈnements | A l'Equilibre</title>
         <meta name="Organisation d'ÈvÈnements" content="Foodtruck, rejoignez notre rÈseau et bÈnÈficiez de nos services ÈvÈnementiels. Avec nous, boostez votre chiffre díamitiÈ."/>
         <meta charset="utf-8"/>
         <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />

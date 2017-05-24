@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title> Nos localisations | A l'…quilibre</title>
+    <title> Nos localisations | A l'Equilibre</title>
     <meta name="O˘ nous trouver ?" content="Un problËme pour nous localiser ? Vous pourrez trouver toutes les informations qui vous intÈressent ici."/>
     <meta charset="utf-8"/>
     <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
