@@ -8,8 +8,8 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Argentin | A l'Èquilibre</title>
-    <meta name="description" content="Traiteur Argentin pour vos ÈvÈnements d'entreprise et ÈvÈnements privÈs partout en rÈgion Nantaise. De nombreux plats et formules sur-mesure disponibles ‡ la rÈservation."/>    <meta charset="utf-8"/>
+    <title>Argentin | A l'Equilibre</title>
+    <meta name="Que souhaitez vous commander ?" content="Traiteur Argentin pour vos ÈvÈnements d'entreprise et ÈvÈnements privÈs partout en rÈgion nantaise. De nombreux plats et formules sur-mesure disponibles ‡ la rÈservation."/>
     <meta charset="utf-8"/>
     <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">

@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Blog | A l'Èquilibre</title>
-        <meta name="description" content="Plus de 10 styles culinaires disponibles ‡ la privatisation parmi notre rÈseau de traiteurs Nantais."/>
+        title>Blog et articles | A l'…quilibre</title>
+        <meta name="Nos actualitÈs et nos bloggueurs/bloggueuses favoris" content="Blog A l'…quilibre : actualitÈ, guides pratiques et conseils. La nouvelle alternative qui remplace le restaurant."/>
         <meta charset="utf-8"/>
         <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">

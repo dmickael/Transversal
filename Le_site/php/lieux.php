@@ -2,8 +2,8 @@
 
 <html>
 <head>
-    <title>Événements | A l'Équilibre</title>
-    <meta name="description" content="Foodtruck, rejoignez notre réseau et bénéficiez de nos services événementiels. Avec nous, boostez votre chiffre d’amitié."/>
+    <title> Nos localisations | A l'…quilibre</title>
+    <meta name="O˘ nous trouver ?" content="Un problËme pour nous localiser ? Vous pourrez trouver toutes les informations qui vous intÈressent ici."/>
     <meta charset="utf-8"/>
     <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">

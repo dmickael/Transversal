@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="../style.css">
-    <title>Contactez-nous | A l'équilibre</title>
-    <meta name="description" content="Vous souhaitez privatiser un foodtruck, un foodbike ou un stand mobile ? Contactez-nous et faites-nous part de nos envies, même les plus folles !"/>
+    <title>Contactez-nous | A l'…quilibre</title>
+    <meta name="Contacter notre Èquipe aux petits oignons" content="Vous souhaitez privatiser un foodtruck, un foodbike ou un stand mobile ? Contactez-nous et faites-nous part de vos envies, mÍme les plus folles !"/>
+    <meta charset="utf-8"/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>

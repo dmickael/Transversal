@@ -1,7 +1,8 @@
 <html>
 <head>
-    <title>Événement détailé | A l'Équilibre</title>
-    <meta name="description" content="Foodtruck, vous souhaitez savoir ce que l'on peut faire pour vous pour cet événement ? Alors nous allons vous apporter toutes les réponses à vos questions."/> <meta charset="utf-8"/>
+    <title>Emplacements fixes et ÈvÈnements pour foodtruck | A l'…quilibre</title>
+    <meta name="description" content="Foodtrucks, rejoignez notre rÈseau et bÈnÈficiez de nos services d'emplacements fixes et ÈvÈnementiels. Avec nous, boostez votre chiffre d'amitiÈ."/>
+    <meta charset="utf-8"/>
     <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="icon" type="image/png" href="../images/favicon.ico" />

@@ -1,8 +1,8 @@
 <html>
     <head>
-        <title>Équipe | A l'Équilibre</title>
-        <meta name="description" content="Vous êtes curieux de connaître les personnes avec qui vous êtes possiblement amenés à échanger ? Voici notre équipe."/>
-        <meta charset="UTF-8" />
+        <title>Equipe | A l'Equilibre</title>
+        <meta name="Notre Èquipe" content="Vous Ítes curieux de connaÓtre les personnes avec qui vous Ítes possiblement amenÈs ‡ Èchanger ? Voici notre Èquipe."/>
+        <meta charset="utf-8"/>
         <link href="../style.css" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
         <link rel="icon" type="image/png" href="../images/favicon.ico" />

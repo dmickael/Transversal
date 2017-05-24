@@ -15,10 +15,9 @@ catch (PDOException $e) {
 <!DOCTYPE>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>A l'équilibre</title>
-    <meta name="description" content="L'alternative au restaurant, A l'équilibre est la pour vous !"/>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <title>Home | A l'…quilibre</title>
+    <meta name="A líÈquilibre" content="L'alternative au restaurant, A l'Èquilibre est l‡ pour vous !"/>
+    <meta charset="utf-8"/><link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"/>
     <link href="../style.css" rel="stylesheet">
