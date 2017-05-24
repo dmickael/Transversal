@@ -24,7 +24,7 @@
             <span class="oops">oops! Page introuvable !</span>
         </div>
         </br>
-        <a href="#" title="Back to site" class="erreur_retour">back</a>
+        <a href="index.php" title="Back to site" class="erreur_retour">back</a>
     </article>
 
 </div>

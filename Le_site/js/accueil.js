@@ -9,8 +9,8 @@ $(document).ready(function() {
         mobileFirst: true,
         autoplay: true,
         autoplaySpeed: 2000,
-        prevArrow: '<button type="button" id="buttonarrowprev"><img src="../images/fleche.png" title="précédent"/></button>',
-        nextArrow: '<button type="button" id="buttonarrownext"><img src="../images/fleche.png" title="suivant"/></button>'
+        prevArrow: '<button type="button" id="buttonarrowprev"><img src="images/fleche.png" title="précédent"/></button>',
+        nextArrow: '<button type="button" id="buttonarrownext"><img src="images/fleche.png" title="suivant"/></button>'
     });
 });
 var largeur_fenetre = $(window).width();
