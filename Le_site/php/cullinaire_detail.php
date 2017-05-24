@@ -8,15 +8,15 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Argentin | A l'Èquilibre</title>
-    <meta name="description" content="Traiteur Argentin pour vos ÈvÈnements d'entreprise et ÈvÈnements privÈs partout en rÈgion Nantaise. De nombreux plats et formules sur-mesure disponibles ‡ la rÈservation."/>    <meta charset="utf-8"/>
+    <title>Argentin | A l'Equilibre</title>
+    <meta name="Que souhaitez vous commander ?" content="Traiteur Argentin pour vos ÈvÈnements d'entreprise et ÈvÈnements privÈs partout en rÈgion nantaise. De nombreux plats et formules sur-mesure disponibles ‡ la rÈservation."/>
     <meta charset="utf-8"/>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
 <body>
-    <?php include'header.html'; ?>
+    <?php include'../header.html'; ?>
 
 <?php
 
@@ -39,15 +39,15 @@ catch (PDOException $e) {
         while ($data2=$nom->fetch()){?>
             <div class="plat_blockdifferentstitreimg">
                 <h1 class="titre_blanc"><?php echo $data2['nom_type_menu']; ?></h1>
-                <img src="<?php echo $data2['fond_type_menu'] ?>" class="fondmenu">
+                <img src="../<?php echo $data2['fond_type_menu'] ?>" class="fondmenu">
             </div>
-        <div class="plat_blockpresentationglobal"><img src="<?php  echo $data2['logo_type_menu']?>"/><p><?php echo $data2['description_type_menu']?></p></div>
+        <div class="plat_blockpresentationglobal"><img src="../<?php  echo $data2['logo_type_menu']?>"/><p><?php echo $data2['description_type_menu']?></p></div>
         <div class="plat_blockspecialite"><h2 class="titre_rouge">Spécialités :</h2><p class="plat_difspec"><?php echo $data2['specialite_type_menu']?></p></div>
         <div id="block_fullrecette">
             <?php };
             while ($data= $result->fetch()) { ?>
             <div class="plat_blockrecette">
-                <img src="<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
+                <img src="../<?php echo $data['image_menu']; ?>"  class="specialite_culinaire_image">
                 <h3 class="title_plat titre_rouge"><?php echo $data['nom_menu']; ?></h3>
                 <p class="plat_presentation"><?php echo $data['description_menu']; ?></p>
             </div>
@@ -55,15 +55,15 @@ catch (PDOException $e) {
             while ($data=$nom2->fetch()){ ?>
             <div class="plat_blockdifferentstitreimg">
                 <h1 class="titre_blanc"><?php echo $data['nom_type_plat']; ?></h1>
-                <img src="<?php echo $data['fond_type_plat'] ?>" class="fondmenu">
+                <img src="../<?php echo $data['fond_type_plat'] ?>" class="fondmenu">
             </div>
-            <div class="plat_blockpresentationglobal"><img src="<?php  echo $data['logo_type_plat']?>"/><p><?php echo $data['description_type_plat']?></p></div>
+            <div class="plat_blockpresentationglobal"><img src="../<?php  echo $data['logo_type_plat']?>"/><p><?php echo $data['description_type_plat']?></p></div>
             <div class="plat_blockspecialite"><h2 class="titre_rouge">Spécialités :</h2><p class="plat_difspec"><?php echo $data['specialite_type_plat']?></p></div>
             <div id="block_fullrecette">
                 <?php };
             while ($data= $result2->fetch()) { ?>
                 <div class="plat_blockrecette">
-                    <img src="<?php echo $data['image_plat']; ?>"  class="specialite_culinaire_image">
+                    <img src="../<?php echo $data['image_plat']; ?>"  class="specialite_culinaire_image">
                     <h3 class="title_plat titre_rouge"><?php echo $data['nom_plat']; ?></h3>
                     <p class="plat_presentation"><?php echo $data['description_plat']; ?></p>
                 </div>
@@ -73,9 +73,8 @@ catch (PDOException $e) {
     ?>
         </div>
     </div>
-    <?php include 'footer.html'; ?>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
+    <?php include '../footer.html'; ?>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="js/header.js"></script>
+    <script src="../js/headermin.js"></script>
 </body>
 </html>

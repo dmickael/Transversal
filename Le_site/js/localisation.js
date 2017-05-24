@@ -1,46 +1,64 @@
 function initMap() {
-    var map3 = new google.maps.Map(document.getElementById('map3'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
+    var map3 = new google.maps.Map(document.getElementById('map3'), {
+        mapTypeId: google.maps.MapTypeId.satelite,
+        center: {
+            lat: 47.227,
+            lng: -1.5519566
+        },
         zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
+        scrollwheel: false,
+        streetViewControl: false,
+        mapTypeControl: false
     });
     var marker3 = new google.maps.Marker({
-        position: {lat: 47.24369,lng: -1.55151},
+        position: {
+            lat: 47.24369,
+            lng: -1.55151
+        },
         map: map3,
         title: 'Campus Fac science'
     });
 
 
 
-    var map4 = new google.maps.Map(document.getElementById('map4'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
+    var map4 = new google.maps.Map(document.getElementById('map4'), {
+        mapTypeId: google.maps.MapTypeId.satelite,
+        center: {
+            lat: 47.227,
+            lng: -1.5519566
+        },
         zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
+        scrollwheel: false,
+        streetViewControl: false,
+        mapTypeControl: false
     });
     var marker4 = new google.maps.Marker({
-        position: {lat: 47.25482,lng: -1.52325},
+        position: {
+            lat: 47.25482,
+            lng: -1.52325
+        },
         map: map4,
         title: 'Stade de la Beaujoire'
     });
 
 
 
-    var map5 = new google.maps.Map(document.getElementById('map5'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
+    var map5 = new google.maps.Map(document.getElementById('map5'), {
+        mapTypeId: google.maps.MapTypeId.satelite,
+        center: {
+            lat: 47.227,
+            lng: -1.5519566
+        },
         zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
+        scrollwheel: false,
+        streetViewControl: false,
+        mapTypeControl: false
     });
     var marker5 = new google.maps.Marker({
-        position: {lat: 47.23017,lng: -1.63005},
+        position: {
+            lat: 47.23017,
+            lng: -1.63005
+        },
         map: map5,
         title: 'Zénith'
     });
@@ -48,17 +66,22 @@ function initMap() {
 
 
 
-
-    var map6 = new google.maps.Map(document.getElementById('map6'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
+    var map6 = new google.maps.Map(document.getElementById('map6'), {
+        mapTypeId: google.maps.MapTypeId.satelite,
+        center: {
+            lat: 47.227,
+            lng: -1.5519566
+        },
         zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
+        scrollwheel: false,
+        streetViewControl: false,
+        mapTypeControl: false
     });
     var marker6 = new google.maps.Marker({
-        position: {lat: 47.2126,lng: -1.55788},
+        position: {
+            lat: 47.2126,
+            lng: -1.55788
+        },
         map: map6,
         title: 'Commerce'
     });
@@ -66,16 +89,22 @@ function initMap() {
 
 
 
-    var map7 = new google.maps.Map(document.getElementById('map7'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
+    var map7 = new google.maps.Map(document.getElementById('map7'), {
+        mapTypeId: google.maps.MapTypeId.satelite,
+        center: {
+            lat: 47.227,
+            lng: -1.5519566
+        },
         zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
+        scrollwheel: false,
+        streetViewControl: false,
+        mapTypeControl: false
     });
     var marker7 = new google.maps.Marker({
-        position: {lat: 47.21377,lng: -1.54468},
+        position: {
+            lat: 47.21377,
+            lng: -1.54468
+        },
         map: map7,
         title: 'Nantes Métropole'
     });
@@ -83,34 +112,38 @@ function initMap() {
 
 
 
-    var map8 = new google.maps.Map(document.getElementById('map8'),{
-        mapTypeId:google.maps.MapTypeId.satelite,
-        center: {lat:47.227, lng: -1.5519566},
+    var map8 = new google.maps.Map(document.getElementById('map8'), {
+        mapTypeId: google.maps.MapTypeId.satelite,
+        center: {
+            lat: 47.227,
+            lng: -1.5519566
+        },
         zoom: 11,
-        scrollwheel:false,
-        streetViewControl:false,
-        mapTypeControl:false
+        scrollwheel: false,
+        streetViewControl: false,
+        mapTypeControl: false
     });
     var marker8 = new google.maps.Marker({
-        position: {lat: 47.20563,lng: -1.53903},
+        position: {
+            lat: 47.20563,
+            lng: -1.53903
+        },
         map: map8,
         title: 'Beaulieu'
     });
 };
 
-$(function () {
+$(function() {
     var selectedClass = "";
-    $(".cat").click(function () {
+    $(".cat").click(function() {
         selectedClass = $(this).attr("data-rel");
         $("#lescarte").fadeTo(100, 0.1);
-        $("#lescarte article").not("."+selectedClass).fadeOut().removeClass('animation');
-        setTimeout(function () {
-            $("."+selectedClass).fadeIn().addClass('animation');
-            $('#lescarte').fadeTo(300,2);
+        $("#lescarte article").not("." + selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function() {
+            $("." + selectedClass).fadeIn().addClass('animation');
+            $('#lescarte').fadeTo(300, 2);
         }, 300);
     });
 });
 
-google.maps.event.addDomListener(window,'load', initMap);
-
-
+google.maps.event.addDomListener(window, 'load', initMap);

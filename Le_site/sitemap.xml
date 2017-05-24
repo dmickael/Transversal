@@ -84,4 +84,87 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+      <loc>back_office/addarticles.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/addmenus.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/addplats.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/auth.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/connection.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/db.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/deconnection.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/deletearticles.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/deletemenus.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/deleteplats.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/exemple.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/index.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  <url>
+      <loc>back_office/inscription.php</loc>
+      <lastmod>2017-05-16</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0</priority>
+  </url>
+  
+  
+  
+  
+  
 </urlset>

@@ -2,17 +2,17 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Styles culinaires | A l'Èquilibre</title>
-    <meta name="description" content="Plus de 10 styles culinaires disponibles ‡ la privatisation parmi notre rÈseau de traiteurs Nantais."/>
+    <title>Styles culinaires | A l'Equilibre</title>
+    <meta name="Nos specialitÈs"  content="Plus de 10 styles culinaires disponibles ‡ la privatisation parmi notre rÈseau de traiteurs Nantais."/>
     <meta charset="utf-8"/>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../stylemin.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="../images/favicon.ico" />
 </head>
 <body>
 <header>
     <?php
-    include("header.html");
+    include("../header.html");
     ?>
 </header>
 
@@ -44,7 +44,7 @@
                 <div class="sc_blocktitle">
                     <span class="sc_paystitle"><?php echo $data['nom_type_menu']; ?></span>
                 </div>
-                <img class="sc_imgpays" src="<?php echo $data['image_type_menu']; ?>"" class="specialite_culinaire_image">
+                <img class="sc_imgpays" src="../<?php echo $data['image_type_menu']; ?>"" class="specialite_culinaire_image">
             </a>
         </div>
 
@@ -58,7 +58,7 @@
                 <div class="sc_blocktitle">
                     <span class="sc_paystitle"><?php echo $data['nom_type_plat']; ?></span>
                 </div>
-                <img class="sc_imgpays" src="<?php echo $data['image_type_plat']; ?>"" class="specialite_culinaire_image">
+                <img class="sc_imgpays" src="../<?php echo $data['image_type_plat']; ?>"" class="specialite_culinaire_image">
             </a>
         </div>
 
@@ -67,11 +67,9 @@
     </>
 
     <?php
-    include ("footer.html");
-    ?>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDdV7_4GPVnAfUo9AgcX8XNkzXxnVUw5zM"></script>
+    include ("../footer.html"); ?>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="js/header.js"></script>
+<script src="../js/headermin.js"></script>
 </body>
 </html>
 

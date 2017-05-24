@@ -1,1 +1,1 @@
-ErrorDocument 404 http://localhost:63342/Transversal/Le_site/404.php
+ErrorDocument 404 http://localhost/transversal-principal/Transversal/Le_site/404.php
