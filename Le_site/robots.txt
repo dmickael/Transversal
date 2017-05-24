@@ -9,4 +9,7 @@ Disallow: /phpmailer/
 Disallow: /slick/
 Disallow: /js/
 Disallow: /back_office/
+Disallow: /evenement_detail.php
+Disallow: /cullinaire_detail.php
+Disallow: /article_detail.php
 Allow: /
