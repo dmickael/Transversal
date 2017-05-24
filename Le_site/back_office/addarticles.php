@@ -24,8 +24,8 @@ if (isset($_REQUEST['nom_article'])){
     $code_article1 = stripslashes($_REQUEST['code_article1']);
     $code_article1 = mysqli_real_escape_string($con,$code_article1);
 
-    $code_article='arti_'.$code_article1;
-    $lien1="images/image_article/";
+    $code_article='arti'.$code_article1;
+    $lien1="/images/image_article/";
     $lien2=$_FILES['fichier']['name'];
 
     $image_article=$lien1.$lien2;
@@ -89,7 +89,7 @@ if (isset($_REQUEST['nom_article'])){
     <div class="form">
         <h1>Ajout d'article</h1>
         <form name="Ajout article" action="addarticles.php" enctype="multipart/form-data" method="post">
-            <input type="text" class="addmenu" name="code_article1" placeholder="Id de l'article (arti_XXX)" maxlength="3" required />
+            <input type="text" class="addmenu" name="code_article1" placeholder="Id de l'article (artiXXXX)" maxlength="3" required />
             <input type="text" name="nom_article" placeholder="Nom" required />
             <select name="code_type_article">
                 <option value="TYPART01">Communiqué</option>

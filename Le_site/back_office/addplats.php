@@ -22,7 +22,7 @@ if (isset($_REQUEST['nom_plat'])){
     $code_plat1 = stripslashes($_REQUEST['code_plat1']);
     $code_plat1 = mysqli_real_escape_string($con,$code_plat1);
 
-    $code_plat='plat_'.$code_plat1;
+    $code_plat='plat'.$code_plat1;
     $lien1="images/image_plat/";
     $lien2=$_FILES['fichier']['name'];
 
@@ -70,7 +70,7 @@ if (isset($_REQUEST['nom_plat'])){
     <div class="form">
         <h1>Ajout de plat</h1>
         <form name="Ajout de plats" enctype="multipart/form-data" method="post">
-            <input type="text" class="addmenu" name="code_plat1" placeholder="Id du plat (plat_XXX)" maxlength="3" required />
+            <input type="text" class="addmenu" name="code_plat1" placeholder="Id du plat (platXXXX)" maxlength="3" required />
             <input type="text" class="addplats" name="nom_plat" placeholder="Nom" required />
             <select class="addplats" name="code_type_plat">
                 <option value="TYPLAT01">Coktails</option>

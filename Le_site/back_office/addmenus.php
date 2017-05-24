@@ -22,7 +22,7 @@ if (isset($_REQUEST['nom_menu'])){
     $code_menu1 = stripslashes($_REQUEST['code_menu1']);
     $code_menu1 = mysqli_real_escape_string($con,$code_menu1);
 
-    $code_menu='menu_'.$code_menu1;
+    $code_menu='menu'.$code_menu1;
     $lien1="images/image_menu/";
     $lien2=$_FILES['fichier']['name'];
 
@@ -71,7 +71,7 @@ if (isset($_REQUEST['nom_menu'])){
     <div class="form">
         <h1>Ajout de menus</h1>
         <form name="Ajout de menus" enctype="multipart/form-data" method="post">
-            <input type="text" class="addmenu" name="code_menu1" placeholder="Id du menu (menu_XXX)" maxlength="3" required />
+            <input type="text" class="addmenu" name="code_menu1" placeholder="Id du menu (menuXXXX)" maxlength="4" required />
             <input type="text" class="addmenu" name="nom_menu" placeholder="Nom" required />
             <select class="addmenu" name="code_type_menu">
                 <option value="TYPMEN01">Italien</option>

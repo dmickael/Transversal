@@ -4,5 +4,9 @@ Disallow: /*.jpg$
 Disallow: /*.png$
 Disallow: /*.gif$
 Disallow: /images/
+Disallow: /fichier_sql/
+Disallow: /phpmailer/
+Disallow: /slick/
+Disallow: /js/
 Disallow: /back_office/
 Allow: /
